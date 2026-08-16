@@ -2,8 +2,8 @@ name: Collect TXT Files
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Запуск каждый день в полночь (UTC)
-  workflow_dispatch: # Позволяет запускать вручную кнопкой в интерфейсе GitHub
+    - cron: '12,42 * * * *' # Каждые 30 минут (на 12 и 42 минутах)
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,14 +12,17 @@ jobs:
       - name: Чеккаут своего репозитория
         uses: actions/checkout@v4
 
-      - name: Скачивание файлов
+      - name: Создание папки и скачивание файлов
         run: |
-          # Используем raw-ссылки на файлы из чужих профилей/репозиториев
-          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/refs/heads/main/configs/mobile_ykt.%231.txt" -o file1.txt
-          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/refs/heads/main/configs/mobile_ykt.%232.txt" -o file2.txt
+          # Создаем папку sub (если ее еще нет)
+          mkdir -p sub
 
-          # Если нужно объединить их в один общий файл:
-          cat file1.txt file2.txt > summary.txt
+          # Скачиваем файлы напрямую в эту папку
+          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/refs/heads/main/configs/mobile_ykt.%231.txt" -o sub/1.txt
+          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/refs/heads/main/configs/mobile_ykt.%232.txt" -o sub/2.txt
+
+          # Если нужно объединить их в один общий файл внутри этой же папки:
+          cat sub/1.txt sub/2.txt > sub/all.txt
 
       - name: Коммит и пуш обновлений
         run: |
