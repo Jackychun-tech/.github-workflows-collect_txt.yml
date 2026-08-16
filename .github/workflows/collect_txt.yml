@@ -15,20 +15,58 @@ jobs:
       - name: Чеккаут своего репозитория
         uses: actions/checkout@v4
 
-      - name: Создание папки и скачивание файлов
+      - name: Скачивание, дедупликация и разбиение по 50 000 строк
+        env:
+          URLS: |
+            ${{ secrets.SOURCE_URLS_1 }}
+            ${{ secrets.SOURCE_URLS_2 }}
+            ${{ secrets.SOURCE_URLS_3 }}
         run: |
           mkdir -p sub
-          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/main/configs/mobile_ykt.%231.txt" -o sub/1.txt
-          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/main/configs/mobile_ykt.%232.txt" -o sub/2.txt
-          cat sub/1.txt sub/2.txt > sub/all.txt
+          rm -f sub/all*.txt
+          
+          # 1. Скачиваем данные со всех источников во временный файл
+          > temp_raw.txt
+          echo "$URLS" | while IFS= read -r url; do
+            clean_url=$(echo "$url" | tr -d '\r' | xargs)
+            if [ -n "$clean_url" ]; then
+              # -f отбрасывает страницы 404/500, || true предотвращает падение скрипта при сбое сети
+              curl -sSLf "$clean_url" >> temp_raw.txt || true
+              echo "" >> temp_raw.txt
+            fi
+          done
 
-      - name: Коммит и пуш обновлений
+          # 2. Очищаем от пустых строк и удаляем дубликаты по части ДО знака #
+          awk -F'#' '
+            {
+              gsub(/\r/, "")                  # Удаляем символы возврата каретки (Windows CR)
+              gsub(/^[ \t]+|[ \t]+$/, "")     # Удаляем лишние пробелы в начале и конце
+            }
+            $0 != "" && !seen[$1]++           # Запоминаем часть до #, дубли отбрасываем
+          ' temp_raw.txt > temp_clean.txt
+
+          # 3. Разбиваем очищенный список по 50 000 строк
+          split -l 50000 -d --additional-suffix=.txt temp_clean.txt sub/part_
+          rm -f temp_raw.txt temp_clean.txt
+
+          # 4. Переименовываем: part_00.txt -> all.txt, part_01.txt -> all2.txt ...
+          count=1
+          for f in sub/part_*.txt; do
+            if [ -f "$f" ]; then
+              if [ $count -eq 1 ]; then
+                mv "$f" sub/all.txt
+              else
+                mv "$f" "sub/all${count}.txt"
+              fi
+              count=$((count+1))
+            fi
+          done
+
+      - name: Принудительный коммит и пуш
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add sub/
-          if ! git diff --staged --quiet; then
-            git commit -m "Auto-update txt files [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
+          git add -A sub/
+          git commit --allow-empty -m "Auto-update deduplicated txt files [skip ci]"
+          git pull --rebase origin main
+          git push
