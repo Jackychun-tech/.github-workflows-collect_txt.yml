@@ -2,7 +2,7 @@ name: Collect TXT Files
 
 on:
   schedule:
-    - cron: '12,42 * * * *' # Каждые 30 минут (на 12 и 42 минутах)
+    - cron: '12,42 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -14,19 +14,14 @@ jobs:
 
       - name: Создание папки и скачивание файлов
         run: |
-          # Создаем папку sub (если ее еще нет)
           mkdir -p sub
-
-          # Скачиваем файлы напрямую в эту папку
-          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/refs/heads/main/configs/mobile_ykt.%231.txt" -o sub/1.txt
-          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/refs/heads/main/configs/mobile_ykt.%232.txt" -o sub/2.txt
-
-          # Если нужно объединить их в один общий файл внутри этой же папки:
+          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/main/configs/mobile_ykt.%231.txt" -o sub/1.txt
+          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/main/configs/mobile_ykt.%232.txt" -o sub/2.txt
           cat sub/1.txt sub/2.txt > sub/all.txt
 
       - name: Коммит и пуш обновлений
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          git add sub/
           git diff --staged --quiet || (git commit -m "Auto-update txt files [skip ci]" && git push)
