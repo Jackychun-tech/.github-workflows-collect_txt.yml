@@ -15,11 +15,11 @@ jobs:
       - name: Скачивание файлов
         run: |
           # Используем raw-ссылки на файлы из чужих профилей/репозиториев
-          curl -sSL "https://raw.githubusercontent.com/user1/repo1/main/file1.txt" -o file1.txt
-          curl -sSL "https://raw.githubusercontent.com/user2/repo2/master/file2.txt" -o file2.txt
+          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/refs/heads/main/configs/mobile_ykt.%231.txt" -o file1.txt
+          curl -sSL "https://raw.githubusercontent.com/kudryash0vv/kudryash0vv.YKTFLOW/refs/heads/main/configs/mobile_ykt.%232.txt" -o file2.txt
 
           # Если нужно объединить их в один общий файл:
-          # cat file1.txt file2.txt > summary.txt
+          cat file1.txt file2.txt > summary.txt
 
       - name: Коммит и пуш обновлений
         run: |
