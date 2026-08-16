@@ -2,7 +2,7 @@ name: Collect TXT Files
 
 on:
   schedule:
-    - cron: '12,42 * * * *'
+    - cron: '20 */4 * * *'
   workflow_dispatch:
 
 permissions:
