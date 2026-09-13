@@ -122,7 +122,7 @@ jobs:
           from email.mime.application import MIMEApplication
 
           now_str = datetime.now().strftime("%d.%m.%Y %H:%M")
-          max_size = 60 * 1024 * 1024  # 15 МБ на один ZIP (гарантирует прохождение через Gmail)
+          max_size = 150 * 1024 * 1024  # 15 МБ
           sub_dir = "sub"
           
           files = [os.path.join(sub_dir, f) for f in sorted(os.listdir(sub_dir)) if f.endswith(".txt")]
