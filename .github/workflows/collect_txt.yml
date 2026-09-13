@@ -71,7 +71,7 @@ jobs:
 
           mv temp_sorted.txt temp_clean.txt
 
-          # Функция для разбиения любого файла на блоки по 50 000 строк (all -> all.txt, all2.txt ...)
+          # Функция для разбиения любого файла на блоки по 50 000 строк
           split_and_rename() {
             local prefix=$1
             local src_file=$2
@@ -99,7 +99,8 @@ jobs:
           split_and_rename "all" temp_clean.txt
 
           # 5. Фильтруем по протоколам и разбиваем каждый по 50 000 строк
-          PROTOCOLS=("vless" "vmess" "ss" "trojan" "hysteria" "hysteria2" "hy2" "tuic" "socks5" "socks" "http")
+          # Добавлены: anytls, https, ssr, wireguard, tg
+          PROTOCOLS=("vless" "vmess" "ss" "ssr" "trojan" "hysteria" "hysteria2" "hy2" "tuic" "anytls" "wireguard" "tg" "socks5" "socks" "https" "http")
 
           for proto in "${PROTOCOLS[@]}"; do
             # Флаг -a заставляет grep читать бинарные символы как обычный текст
