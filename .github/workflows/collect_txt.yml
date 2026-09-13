@@ -126,70 +126,75 @@ jobs:
           git pull --rebase origin main
           git push
 
-      # 1. Архивируем файлы по 20 МБ и формируем список содержимого .txt файлов
-      - name: Подготовка архивов и текста письма
-        id: prepare_mail
+      # Архивируем файлы и отправляем каждое письмо отдельно
+      - name: Архивация и отправка писем по частям
         run: |
-          # Создаем дата-штамп (в формате: 13.09.2026 20:42)
           NOW=$(date +'%d.%m.%Y %H:%M')
-          echo "subject_date=$NOW" >> $GITHUB_OUTPUT
-
-          # Запускаем Python-скрипт упаковки
+          
           python3 -c '
-          import os, zipfile
+          import os, zipfile, smtplib
+          from email.mime.text import MIMEText
+          from email.mime.multipart import MIMEMultipart
+          from email.mime.application import MIMEApplication
 
-          MAX_SIZE = 20 * 1024 * 1024  # 20 МБ
+          MAX_SIZE = 15 * 1024 * 1024  # Лимит 15 МБ на ZIP (чтобы гарантированно пролезть в Gmail)
           sub_dir = "sub"
           
-          # Получаем все .txt файлы
           files = [os.path.join(sub_dir, f) for f in sorted(os.listdir(sub_dir)) if f.endswith(".txt")]
           
-          # Формируем список имен файлов без расширения .txt (например: "all, vless, vless2, ss")
-          txt_names = [os.path.splitext(f)[0] for f in sorted(os.listdir(sub_dir)) if f.endswith(".txt")]
-          txt_list_str = ", ".join(txt_names)
-
           zip_index = 1
           current_zip_name = f"sub_{zip_index}.zip"
           current_zip = zipfile.ZipFile(current_zip_name, "w", zipfile.ZIP_DEFLATED)
           current_size = 0
+          current_txts = []
+
+          def send_email(zip_filename, txt_names, index):
+              mail_user = os.environ["MAIL_USERNAME"]
+              mail_pass = os.environ["MAIL_PASSWORD"]
+              
+              txt_list_str = ", ".join(txt_names)
+              
+              msg = MIMEMultipart()
+              msg["From"] = "GitHub Actions Bot"
+              msg["To"] = mail_user
+              msg["Subject"] = f"Обновление подписки ({os.environ[\"NOW\"]}) [Часть {index}]"
+              
+              body = f"Привет!\n\nСкрипт успешно обработал конфигурации:\nВо вложении находятся {txt_list_str}\n\nС уважением, твой Github Actions."
+              msg.attach(MIMEText(body, "plain", "utf-8"))
+              
+              with open(zip_filename, "rb") as f:
+                  part = MIMEApplication(f.read(), Name=os.path.basename(zip_filename))
+                  part["Content-Disposition"] = f"attachment; filename=\"{os.path.basename(zip_filename)}\""
+                  msg.attach(part)
+                  
+              with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                  server.login(mail_user, mail_pass)
+                  server.send_message(msg)
+              print(f"Письмо {index} успешно отправлено!")
 
           for file_path in files:
               file_size = os.path.getsize(file_path)
+              txt_name = os.path.splitext(os.path.basename(file_path))[0]
               
               if current_size + file_size > MAX_SIZE and current_size > 0:
                   current_zip.close()
+                  send_email(current_zip_name, current_txts, zip_index)
+                  
                   zip_index += 1
                   current_zip_name = f"sub_{zip_index}.zip"
                   current_zip = zipfile.ZipFile(current_zip_name, "w", zipfile.ZIP_DEFLATED)
                   current_size = 0
+                  current_txts = []
               
               current_zip.write(file_path, arcname=os.path.basename(file_path))
               current_size += file_size
+              current_txts.append(txt_name)
 
           current_zip.close()
-          
-          # Передаем список содержащихся файлов в GITHUB_OUTPUT
-          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-              f.write(f"txt_files={txt_list_str}\n")
+          if current_txts:
+              send_email(current_zip_name, current_txts, zip_index)
           '
-
-      # 2. Отправка письма на Gmail
-      - name: Отправка архивов на Gmail
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: "Обновление подписки (${{ steps.prepare_mail.outputs.subject_date }})"
-          to: ${{ secrets.MAIL_USERNAME }}
-          from: "GitHub Actions Bot"
-          body: |
-            Привет!
-
-            Скрипт успешно обработал конфигурации:
-            Во вложении находятся ${{ steps.prepare_mail.outputs.txt_files }}
-
-            С уважением, твой Github Actions.
-          attachments: sub_*.zip
+        env:
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          NOW: $(date +'%d.%m.%Y %H:%M')
