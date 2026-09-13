@@ -36,7 +36,7 @@ jobs:
             fi
           done
 
-          # 2. Очищаем от пустых и непечатаемых символов, удаляем дубликаты по части ДО знака #
+          # 2. Очищаем от пустых символов и удаляем дубликаты по части ДО знака #
           awk -F'#' '
             {
               gsub(/\r/, "")                   # Удаляем Windows CR
@@ -44,6 +44,19 @@ jobs:
             }
             $0 != "" && !seen[$1]++            # Дубли отбрасываем
           ' temp_raw.txt > temp_clean.txt
+
+          # 3. Сортируем все ключи по IP-адресу/хосту
+          # Извлекает IP/хост из uri, добавляет его первыми колонками для sort, а затем удаляет временно добавленный IP
+          perl -ne '
+            my $line = $_;
+            my $host = "";
+            if ($line =~ m{://(?:[^@]+@)?(\[[a-fA-F0-9:]+\]|[^:/#\s]+)}) {
+                $host = $1;
+            }
+            print "$host\t$line";
+          ' temp_clean.txt | sort -V -k1,1 | cut -f2- > temp_sorted.txt
+
+          mv temp_sorted.txt temp_clean.txt
 
           # Функция для разбиения любого файла на блоки по 50 000 строк (all -> all.txt, all2.txt ...)
           split_and_rename() {
@@ -69,10 +82,10 @@ jobs:
             done
           }
 
-          # 3. Разбиваем общие дедуплицированные данные (all, all2, all3...)
+          # 4. Разбиваем общие отсортированные данные (all, all2, all3...)
           split_and_rename "all" temp_clean.txt
 
-          # 4. Фильтруем по протоколам и разбиваем каждый по 50 000 строк
+          # 5. Фильтруем по протоколам и разбиваем каждый по 50 000 строк
           PROTOCOLS=("vless" "vmess" "ss" "trojan" "hysteria" "hysteria2" "hy2" "tuic" "socks5" "socks" "http")
 
           for proto in "${PROTOCOLS[@]}"; do
@@ -82,7 +95,7 @@ jobs:
             rm -f "temp_${proto}.txt"
           done
 
-          # 5. Собираем все остальные ссылки, которые не подошли под указанные протоколы
+          # 6. Собираем все остальные ссылки, которые не подошли под указанные протоколы
           proto_regex=$(IFS='|'; echo "${PROTOCOLS[*]}")
           grep -aiE "^(${proto_regex})://" -v temp_clean.txt > temp_other.txt || true
           split_and_rename "other" temp_other.txt
