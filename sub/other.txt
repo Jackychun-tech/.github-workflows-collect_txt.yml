@@ -1,14 +1,17 @@
-sdns://AQcAAAAAAAAADjEwMy4xMzEuMTg5Ljc0IGtGsxNVXEHgu_s96iZ2A7P8t9OJCBU8Qj8QqZhvpJVsGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-sdns://AQcAAAAAAAAAGVsyMDAxOmRmMTo4MDE6YTAyMjo6YzQ6YV0gIwkrxEDdw4oOkNmNJH0-pVePaYZ_jcIcxrp87tnMJaYZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
+sdns://AQcAAAAAAAAAEzE2Ny4yMzMuMjQxLjEwMTo0NDMgp-gLrhNDDtyqPkVz0AIvWp184aGspPPNUCvfSvLrS2gfMi5kbnNjcnlwdC1jZXJ0Lm5iZy1kbnNjcnlwdC5ldQ
 slipnet-enc://AXADXDrXGFxw0MkqvEOcX6YTC6QXGrqkvmJKP4SH8S5MEf6OAD87yABxDao33xZJ1z:443/bLIMmvj7sZIicpXY23pOHzK6KFmDAD9MpzTrzj1nsPq7G1vr38wjTg6O/Tjl1mccYYm58wy1xctr1nFLs7a2USLmgaMLupaSBOfiu/JGcZgkbW4xZr6VhsU3ANpirpl5dTJjgS1g2tUEfEwek3xFWjt0F/h4C0BCAdByvMGt8v1Zvf2v3hA3X/JjgE+OL0Z1pTf6wr0fUUSwIeIunDs32zsfr+H9OdHrIVNQgZymgf5xdT0ZmxWYcwAgHB/8dv2hl2sUE2OMeuphsX9vUI7iP5i06h3pfun3WlLWMv7LBxRNfFiTP89F5CF8vEXj7xs0/2ff/+ucwds2GWfYVVg5QCLWjVC+UobHKjc/qeRItp8sbbfXjIgi9PtLcJCds7goQKAXFkrM3Mkt6U5xLTxH3o7OX+w7PsfFgaA1aOsGuaV/QwaZFFpCxqchEtET8ojjsFH7djwsWefX1Jq9TqY6XcYuzzufxabLh7lJf3LgQLpTBWju+w1E2Tfs4G7oQrInffAeQpWNhERAk4X6OVwMnui9qK1P+qOPzXIxwRJuYpOzoW4qN3ggiE7c2kAciFkfA4EDOsKBVoqpGbnCa9XdnqNUDyyQqrSD964VfTkQrV6/OkMhiMQtKCpKKu0O/bRWIxYt2y90G+vaeiMC+CBIURGWeQIf8Th/uRghCyQkhm0w=#%F0%9F%87%BA%F0%9F%87%B3%20%40MrMeshkyChannel%20235489
+sdns://AgAAAAAAAAAADDQuMTUwLjE2OC41NyApOBQpAcz9-ZvoWm1Tthky3Ywrrkt8do50JL5t154GjhRkbnMuc2FmZXN1cmZlci5jby5uegovZG5zLXF1ZXJ5
+sdns://AgEAAAAAAAAAE1syNjIwOjEwQTo4MEJDOjoxMF0gCERAWDu5itnIqpCGWdkiALZqQVAKir_hFcj-XmIkM9MecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk
 sdns://AgIAAAAAAAAADjExNi4yMDIuMTc2LjI2INYdluv7P6GQluLAAuNgO_f9qu-yJwTahmgGK76G7UuTD2RvaC5saWJyZWRucy5ncgovZG5zLXF1ZXJ5
-sdns://AgMAAAAAAAAACjg2LjU0LjExLjEgsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQWcHJvdGVjdGl2ZS5qb2luZG5zNC5ldQovZG5zLXF1ZXJ5
-sdns://AgMAAAAAAAAADjE4NS4yNTAuMjUwLjYxILTgqMmLCq5DtzgwN6zNEaHJZJcfa3T8vDcM0DD7Mo3dDWRuc2J1bmtlci5vcmcKL2Rucy1xdWVyeQ
-sdns://AgYAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGRJtYXgucmV0aGlua2Rucy5jb20KL2Rucy1xdWVyeQ
-sdns://AgcAAAAAAAAADjE3Mi45My4xNjcuMjE0IIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50D3l5ejAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-sdns://AgcAAAAAAAAADzE4NS4yMjIuMjIyLjIyMiBxTYz1ZnaR2ko2iI9x2OF2TdwrFQh9ysFQPDks4-jgAA8xODUuMjIyLjIyMi4yMjIKL2Rucy1xdWVyeQ
-sdns://gQwyMy45NS4xMzQuMTU
-sdns://gRhbMjAwMTphYzg6MzU6MTc6OjUzXTo0NDM
+sdns://AgcAAAAAAAAADTIzLjIzMC4yNTMuOTggsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQPZGZ3MDIuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADjE5Mi43MS4yMTguMTIxIIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50D2hhZjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjk0LjEzMC4xMzUuMjAzINYdluv7P6GQluLAAuNgO_f9qu-yJwTahmgGK76G7UuTE2Rucy5kaWdpdGFsc2l6ZS5uZXQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAFVsyNjAyOmZjMWM6ZmEwOjI5OjoxXSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdA95aHowMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAFVsyYTAzOmY4MDo1Nzo5OGIxOjoxXSCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9ib2cwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAFlsyYTAzOmY4MDozODY6YjdmNjo6MV0gsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQPbGp1MDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAGVsyYTAxOjRmODoxM2I6MzQwNzo6ZmFjZV0g1h2W6_s_oZCW4sAC42A79_2q77InBNqGaAYrvobtS5MTZG5zLmRpZ2l0YWxzaXplLm5ldAovZG5zLXF1ZXJ5
+sdns://gQ0xODUuMjM0LjUyLjg3
+sdns://gRNbMjYwNTpmYTgwOjE6MTc6OmFd
 allowed-ips: "0.0.0.0/0, ::/0"
 dns: "1.1.1.1"
 ip: "10.0.125.43/32,2a0e:1c80:1337:1:10:0:125:43/128"
@@ -237,3 +240,5 @@ type: wireguard
 ==================================================
 }&encryption=none&security=tls&host=chopin.paxr.ir#🇨🇦 CA | 104.21.93.182
 }&type=xhttp&security=tls&host=fish.kaftarkakolbesarwifi.ir&fp=chrome&mode=auto#🇨🇦 CA | 104.21.93.182
+ÄnDÙ;bl\lúÅðn¼i30Ù?<v§ª]O©ûôtû$«*VïTFÚ®0³-¸°n ½Â°xM»#¢ZäÔ©÷Ã«n¢+Vûòu¾ùD«IÈ@µB¾SéRR´û­	B­r½Ó}ñÛýÖù"~¤ª+ÿè1^î½=(n[¡eÖµÍ£åM¸ìålY.èV5sf×®gj+¿íJgâ¨+NiZS?Õ#;îgébÂ×Ú,+?®ê¨­:øÔÿ¨H!á«¯Ó1Æù³rÇ»(æ{aµmnúGdu¶æÍ7B[7¥ÌvóM:è(aý5Eþýä¦¥=÷ûò_×~¹(µPkn·_ò×æß1Àß¢ssó¡;àÿ~TªX<SÇþJol|×º GËÑÇ9JÆøÐü|@pLk[Â*åT±~Ú.ä^úx1e¹¥]ùnäk¿Ï¨ÉRÃû#ºÂ|íÐoÞÿÜ8$`¤øàQD³z¸[àH¸oÉx/¹cü³KLuqùÀåûæIÌüèPFön 4Ë\s~,Üßªv¸»"þLðü¿¯¶¹R#EPODONIOS
+ÙÑ{)C¿R©½£<îaÊJ}-PÔËØÈô''úûÎ&ÈÝ0õJÊ;yþò²zBÐ±èÓðè#sí_ÜÅÓµÝÐ!®ßuó²õ3IúÊ|¦­[dî'»¸ÍSÐwÊR,yéÑWÞ	Ò.aa?9¦Ú¸pFs7jsî0q¿l\aÈºz»"sáÐçv¶¿.ÀóTFaF7ÁÑTí¬¶O^(à0oø5j©1Ý¶Ì;7ó¸Èæ¹¹f<£ûDfqs/ÚíL?ÓpÌ¤oÄ¹ +mÅômæÙ £)3WI'ü¤$×3÷é|:$TçÉT%MS÷ç>Ê'bÉö+SfóQ)8¬c^øý#&²,PçÈ.óåeËX &´c?«Ú0lCÕ§I­e±´È6A«9¤ÿZ@~Wè+n`Õ+x Ù5 ºX­ðGàSåÀ/ =há²#ü¿÷gÔ¡üDËÇë£¹7 BàÓÖú÷òuÇ¬n6BÖpRýy±ÙqØTGE¥H;¼nôH§Åµ70n"Ëí»ù=Û6ÈhõÇt`;ûûÜèù]¥PÇØ_;hl@T ¤0Ê6Zö $%¿~9DÑºs2¹ö-T¯ ¢B¼|}âç4{Ü"A/Ö@¹,ùÿqab.YªÐñ4­OzºqÆbù7n%¯(Á[PE±# ·Xç§¢4I%½ðnO73ïö¶R«õºD{,P.¨5°;}wÑ v8{%<¥¡ èåWÃ*(%¦@a:vè(Nss]¹-nÍU[Hh=õgÎBÃ+ò±S»Gî,ðÒ&_r£ÊUÏ¢`lÃäKßöâCÒA¿Ò0ÃDáA)Ò>ÒxÑÎéàóMc-Çº¸¥·M´¸÷Ê&­zÒÎØRu±¹7¤ÏëGËOg>´½1ã'MC2²wªÁ/#EPODONIOS
