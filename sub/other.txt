@@ -1,8 +1,18 @@
-sdns://AQcAAAAAAAAAFVsyYTA2OmEwMDY6ZDFkMTo6MTE2XSCemvW2HFhPhKRYrfw4RuI85Brc1JVrIE3t_wGQxVEQLxkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-slipnet-enc://AXADXDrXGFxw0MkqvEOcX6YTC6QXGrqkvmJKP4SH8S5MEf6OAD87yABxDao33xZJ1z:443/bLIMmvj7sZIicpXY23pOHzK6KFmDAD9MpzTrzj1nsPq7G1vr38wjTg6O/Tjl1mccYYm58wy1xctr1nFLs7a2USLmgaMLupaSBOfiu/JGcZgkbW4xZr6VhsU3ANpirpl5dTJjgS1g2tUEfEwek3xFWjt0F/h4C0BCAdByvMGt8v1Zvf2v3hA3X/JjgE+OL0Z1pTf6wr0fUUSwIeIunDs32zsfr+H9OdHrIVNQgZymgf5xdT0ZmxWYcwAgHB/8dv2hl2sUE2OMeuphsX9vUI7iP5i06h3pfun3WlLWMv7LBxRNfFiTP89F5CF8vEXj7xs0/2ff/+ucwds2GWfYVVg5QCLWjVC+UobHKjc/qeRItp8sbbfXjIgi9PtLcJCds7goQKAXFkrM3Mkt6U5xLTxH3o7OX+w7PsfFgaA1aOsGuaV/QwaZFFpCxqchEtET8ojjsFH7djwsWefX1Jq9TqY6XcYuzzufxabLh7lJf3LgQLpTBWju+w1E2Tfs4G7oQrInffAeQpWNhERAk4X6OVwMnui9qK1P+qOPzXIxwRJuYpOzoW4qN3ggiE7c2kAciFkfA4EDOsKBVoqpGbnCa9XdnqNUDyyQqrSD964VfTkQrV6/OkMhiMQtKCpKKu0O/bRWIxYt2y90G+vaeiMC+CBIURGWeQIf8Th/uRghCyQkhm0w=#%F0%9F%87%BA%F0%9F%87%B3%20%40MrMeshkyChannel%20869202
-sdns://AgcAAAAAAAAAACCQeNIaVsDgiR2QYiG2mSMxvdFxcusPM92gfVxlxuFMORZkb2guYXBwbGllZHByaXZhY3kubmV0Bi9xdWVyeQ
-sdns://AgcAAAAAAAAADTE4MC4xNDkuNDQuMjIgsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQPZ3lkMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
-sdns://AgcAAAAAAAAADTQ1Ljg2LjE2Mi4xMTAgsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQPYW1zMDIuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+sdns://AQYAAAAAAAAAEzE0OS4xMTIuMTEyLjEyOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
+sdns://AQcAAAAAAAAAFVsyNjAyOmZhNjc6MTAxOjFkOjphXSARmtgpOf59ywLMnKON-FTF_DTHPo4LkCQt_i2_JDZEZBkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
+sdns://AQcAAAAAAAAAFVsyYTA5OmNkNDM6Zjo0MmExOjo1XSDuwlpyc5r8QrrjpZMxx6iaKLp7DVmMPZg9mrpPdxsBlhkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
+sdns://AQcAAAAAAAAAK1syMDAxOjliMTo0NWJjOmZmMDA6MjBjOjI5ZmY6ZmUxYzpjMTJhXTo0NDMgF2us8UFijhQlRmAOf1z01hCVm96g7FHq-C3VnpJ53XQjMi5kbnNjcnlwdC1jZXJ0LmhsaW5jb3JlLnNlY3VyZS5kbnM
+slipnet-enc://AXADXDrXGFxw0MkqvEOcX6YTC6QXGrqkvmJKP4SH8S5MEf6OAD87yABxDao33xZJ1z:443/bLIMmvj7sZIicpXY23pOHzK6KFmDAD9MpzTrzj1nsPq7G1vr38wjTg6O/Tjl1mccYYm58wy1xctr1nFLs7a2USLmgaMLupaSBOfiu/JGcZgkbW4xZr6VhsU3ANpirpl5dTJjgS1g2tUEfEwek3xFWjt0F/h4C0BCAdByvMGt8v1Zvf2v3hA3X/JjgE+OL0Z1pTf6wr0fUUSwIeIunDs32zsfr+H9OdHrIVNQgZymgf5xdT0ZmxWYcwAgHB/8dv2hl2sUE2OMeuphsX9vUI7iP5i06h3pfun3WlLWMv7LBxRNfFiTP89F5CF8vEXj7xs0/2ff/+ucwds2GWfYVVg5QCLWjVC+UobHKjc/qeRItp8sbbfXjIgi9PtLcJCds7goQKAXFkrM3Mkt6U5xLTxH3o7OX+w7PsfFgaA1aOsGuaV/QwaZFFpCxqchEtET8ojjsFH7djwsWefX1Jq9TqY6XcYuzzufxabLh7lJf3LgQLpTBWju+w1E2Tfs4G7oQrInffAeQpWNhERAk4X6OVwMnui9qK1P+qOPzXIxwRJuYpOzoW4qN3ggiE7c2kAciFkfA4EDOsKBVoqpGbnCa9XdnqNUDyyQqrSD964VfTkQrV6/OkMhiMQtKCpKKu0O/bRWIxYt2y90G+vaeiMC+CBIURGWeQIf8Th/uRghCyQkhm0w=#%F0%9F%87%BA%F0%9F%87%B3%20%40MrMeshkyChannel%20235489
+sdns://AgAAAAAAAAAAE1syNjAzOjEwMzA6Nzo3OjozYl0g1h2W6_s_oZCW4sAC42A79_2q77InBNqGaAYrvobtS5MUZG5zLnNhZmVzdXJmZXIuY28ubnoKL2Rucy1xdWVyeQ
+sdns://AgEAAAAAAAAADjE0OS4xMTIuMTIyLjMwIAhEQFg7uYrZyKqQhlnZIgC2akFQCoq_4RXI_l5iJDPTHWZhbWlseS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk
+sdns://AgEAAAAAAAAAE1syNjIwOjEwQTo4MEJCOjoxMF0gCERAWDu5itnIqpCGWdkiALZqQVAKir_hFcj-XmIkM9MecHJpdmF0ZS5jYW5hZGlhbnNoaWVsZC5jaXJhLmNhCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAADzE4NS4yMjguMTY4LjE2OKD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6EqArKNAFzdZiWdsRGGXqF8u2CzyPVHBoY42QKmS-eEr9-CDmkk3b8D4_7v0YlBk-4ELgamnW8kitniFtpCsojywQGRFjbGVhbmJyb3dzaW5nLm9yZxQvZG9oL3NlY3VyaXR5LWZpbHRlcg
+sdns://AgMAAAAAAAAAGFsyNDA0Ojk0MDA6NDFhOTo0ODAwOjoxXSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdBBwZXIuYWRmaWx0ZXIubmV0Ci9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAAGFsyYTAxOjRmODoxNTE6MzRhYTo6MTk4XSCQeNIaVsDgiR2QYiG2mSMxvdFxcusPM92gfVxlxuFMOQtkbnNmb3JnZS5kZQovZG5zLXF1ZXJ5
+sdns://AgYAAAAAAAAAEVsyMDAxOjY3YzoyOGE0OjpdILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0GWFueWNhc3QudW5jZW5zb3JlZGRucy5vcmcKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAADDk1LjIxNS4xOS41MyDWHZbr-z-hkJbiwALjYDv3_arvsicE2oZoBiu-hu1LkwtkbnMubmphbC5sYQovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAJ1syMDAxOjE5ZjA6OTAwMjpkZTQ6NTQwMDo0ZmY6ZmUwODo3ZGUzXSCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGRRwbHV0b24ucGxhbjktZG5zLmNvbQovZG5zLXF1ZXJ5
+sdns://gRhbMjgwMzpjMzEwOmZmMDI6M2IxNDo6MV0
 allowed-ips: "0.0.0.0/0, ::/0"
 dns: "1.1.1.1"
 ip: "10.0.125.43/32,2a0e:1c80:1337:1:10:0:125:43/128"
@@ -61,6 +71,7 @@ private-key: "2Cd3AZEeoz4JA+ox2hRcjgEpPUqDnVOkMOvKNEB33Hc="
 private-key: "4FtgX0yndjKXEqotyYkY8uua9HN7OCkcSqS8NHgRe3k="
 private-key: "6Auhx1h8Yxj4eTKCedBQ33eJrjF0ta0iXepym6XDLEA="
 private-key: "6HFhVcetnpDm0WS0LETEEPkUmBQzKPUpPYfRbdqDkn8="
+private-key: "8CBaFoNjMJ64gMWudh+rjxrHtCq0lktrhxseaYo2S0k="
 private-key: "8LW89w519Fi6Sh9g6TGqfH+UqBjJgw4gKHINpNizSHo="
 private-key: "8OZnGhj0UhaMLqG1teayFEC16JkSy76UQqHtH7yVFXk="
 private-key: "ANsY0fuQkdRtj896H0fkDQr0hxoE3BfkxdIM9JKWx2E="
@@ -115,6 +126,7 @@ reserved: [206,226,9]
 reserved: [225,120,131]
 reserved: [225,17,205]
 reserved: [226,44,46]
+reserved: [228,46,87]
 reserved: [229,126,95]
 reserved: [236,210,245]
 reserved: [24,224,33]
@@ -187,20 +199,21 @@ type: wireguard
 - name: "🇩🇪 Düsseldorf, DE · Owl Limited | 176.113.68.6"
 - name: "🇬🇷 Athens, GR · Datacamp Limited | 79.127.218.5"
 - name: "🌐 Cloudflare | 162.159.192.0"
-- name: "🌐 Cloudflare | 162.159.192.1 :500·wireguard"
-- name: "🌐 Cloudflare | 162.159.192.111 :987·wireguard"
+- name: "🌐 Cloudflare | 162.159.192.1 :500"
+- name: "🌐 Cloudflare | 162.159.192.111 :987"
 - name: "🌐 Cloudflare | 162.159.192.13 :891"
 - name: "🌐 Cloudflare | 162.159.192.145 :4177"
 - name: "🌐 Cloudflare | 162.159.192.15"
 - name: "🌐 Cloudflare | 162.159.192.18"
 - name: "🌐 Cloudflare | 162.159.192.2 :878"
 - name: "🌐 Cloudflare | 162.159.192.20 :1002"
-- name: "🌐 Cloudflare | 162.159.192.4 :500·wireguard·#4"
+- name: "🌐 Cloudflare | 162.159.192.20 :903"
+- name: "🌐 Cloudflare | 162.159.192.4 :500"
 - name: "🌐 Cloudflare | 162.159.195.194"
 - name: "🌐 Cloudflare | 162.159.195.230"
 - name: "🌐 Cloudflare | 162.159.195.25"
-- name: "🌐 Cloudflare | 162.159.195.3"
-- name: "🌐 Cloudflare | 162.159.195.4 :2371·wireguard"
+- name: "🌐 Cloudflare | 162.159.195.3 :5279"
+- name: "🌐 Cloudflare | 162.159.195.4 :2371"
 - name: "🌐 Cloudflare | 162.159.195.48 :5279"
 - name: "🌐 Cloudflare | 162.159.195.8 :3581"
 - name: "🌐 Cloudflare | 162.159.195.8 :7559"
