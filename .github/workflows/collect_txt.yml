@@ -36,7 +36,7 @@ jobs:
             fi
           done
 
-          # 2. Очищаем от пустых строк и удаляем дубликаты по части ДО знака #
+          # 2. Очищаем от пустых и непечатаемых символов, удаляем дубликаты по части ДО знака #
           awk -F'#' '
             {
               gsub(/\r/, "")                   # Удаляем Windows CR
@@ -73,18 +73,18 @@ jobs:
           split_and_rename "all" temp_clean.txt
 
           # 4. Фильтруем по протоколам и разбиваем каждый по 50 000 строк
-          # Известные протоколы
           PROTOCOLS=("vless" "vmess" "ss" "trojan" "hysteria" "hysteria2" "hy2" "tuic" "socks5" "socks" "http")
 
           for proto in "${PROTOCOLS[@]}"; do
-            # Ищем строки, начинающиеся с "proto://" (без учета регистра)
-            grep -i "^${proto}://" temp_clean.txt > "temp_${proto}.txt" || true
+            # Флаг -a заставляет grep читать бинарные символы как обычный текст
+            grep -ai "^${proto}://" temp_clean.txt > "temp_${proto}.txt" || true
             split_and_rename "$proto" "temp_${proto}.txt"
             rm -f "temp_${proto}.txt"
           done
 
           # 5. Собираем все остальные ссылки, которые не подошли под указанные протоколы
-          grep -ivE "^($(IFS=|; echo "${PROTOCOLS[*]}"))://" temp_clean.txt > temp_other.txt || true
+          proto_regex=$(IFS='|'; echo "${PROTOCOLS[*]}")
+          grep -aiE "^(${proto_regex})://" -v temp_clean.txt > temp_other.txt || true
           split_and_rename "other" temp_other.txt
 
           # Очистка временных файлов
