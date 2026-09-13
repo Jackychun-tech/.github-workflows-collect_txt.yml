@@ -15,7 +15,7 @@ jobs:
       - name: Чеккаут своего репозитория
         uses: actions/checkout@v4
 
-      - name: Скачивание, дедупликация и разбиение по 50 000 строк
+      - name: Скачивание, дедупликация и сортировка по протоколам (по 50 000 строк)
         env:
           URLS: |
             ${{ secrets.SOURCE_URLS_1 }}
@@ -23,14 +23,14 @@ jobs:
             ${{ secrets.SOURCE_URLS_3 }}
         run: |
           mkdir -p sub
-          rm -f sub/all*.txt
+          # Очищаем папку sub от старых txt-файлов
+          rm -f sub/*.txt
           
           # 1. Скачиваем данные со всех источников во временный файл
           > temp_raw.txt
           echo "$URLS" | while IFS= read -r url; do
             clean_url=$(echo "$url" | tr -d '\r' | xargs)
             if [ -n "$clean_url" ]; then
-              # -f отбрасывает страницы 404/500, || true предотвращает падение скрипта при сбое сети
               curl -sSLf "$clean_url" >> temp_raw.txt || true
               echo "" >> temp_raw.txt
             fi
@@ -39,28 +39,57 @@ jobs:
           # 2. Очищаем от пустых строк и удаляем дубликаты по части ДО знака #
           awk -F'#' '
             {
-              gsub(/\r/, "")                  # Удаляем символы возврата каретки (Windows CR)
-              gsub(/^[ \t]+|[ \t]+$/, "")     # Удаляем лишние пробелы в начале и конце
+              gsub(/\r/, "")                     # Удаляем символы возврата каретки (Windows CR)
+              gsub(/^[ \t]+|[ \t]+$/, "")        # Удаляем лишние пробелы в начале и конце
             }
-            $0 != "" && !seen[$1]++           # Запоминаем часть до #, дубли отбрасываем
+            $0 != "" && !seen[$1]++          # Запоминаем часть до #, дубли отбрасываем
           ' temp_raw.txt > temp_clean.txt
 
-          # 3. Разбиваем очищенный список по 50 000 строк
-          split -l 50000 -d --additional-suffix=.txt temp_clean.txt sub/part_
-          rm -f temp_raw.txt temp_clean.txt
-
-          # 4. Переименовываем: part_00.txt -> all.txt, part_01.txt -> all2.txt ...
-          count=1
-          for f in sub/part_*.txt; do
-            if [ -f "$f" ]; then
-              if [ $count -eq 1 ]; then
-                mv "$f" sub/all.txt
-              else
-                mv "$f" "sub/all${count}.txt"
-              fi
-              count=$((count+1))
+          # Функция для разбиения файла на части по 50 000 строк и переименования в target, target2, target3...
+          split_and_rename() {
+            local input_file="$1"
+            local prefix="$2"
+            
+            if [ -s "$input_file" ]; then
+              split -l 50000 -d --additional-suffix=.txt "$input_file" "sub/part_${prefix}_"
+              
+              local count=1
+              for f in sub/part_${prefix}_*.txt; do
+                if [ -f "$f" ]; then
+                  if [ $count -eq 1 ]; then
+                    mv "$f" "sub/${prefix}.txt"
+                  else
+                    mv "$f" "sub/${prefix}${count}.txt"
+                  fi
+                  count=$((count+1))
+                fi
+              done
             fi
-          done
+          }
+
+          # 3. Делим общий список (all) по 50 000 строк
+          split_and_rename "temp_clean.txt" "all"
+
+          # 4. Сортируем по известным протоколам во временные файлы
+          grep -i '^vless://' temp_clean.txt > temp_vless.txt || true
+          grep -i '^vmess://' temp_clean.txt > temp_vmess.txt || true
+          grep -i '^ss://' temp_clean.txt > temp_ss.txt || true
+          grep -i '^trojan://' temp_clean.txt > temp_trojan.txt || true
+          grep -i '^hysteria2://\|^hy2://' temp_clean.txt > temp_hy2.txt || true
+          grep -i '^tuic://' temp_clean.txt > temp_tuic.txt || true
+          grep -i '^socks5://\|^socks://' temp_clean.txt > temp_socks.txt || true
+
+          # 5. Разбиваем файлы протоколов по 50 000 строк
+          split_and_rename "temp_vless.txt" "vless"
+          split_and_rename "temp_vmess.txt" "vmess"
+          split_and_rename "temp_ss.txt" "ss"
+          split_and_rename "temp_trojan.txt" "trojan"
+          split_and_rename "temp_hy2.txt" "hy2"
+          split_and_rename "temp_tuic.txt" "tuic"
+          split_and_rename "temp_socks.txt" "socks"
+
+          # 6. Удаляем временные файлы
+          rm -f temp_*.txt
 
       - name: Принудительный коммит и пуш
         run: |
