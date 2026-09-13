@@ -1,11 +1,12 @@
+vmess://eyJhZGQiOiJGb3JkZS5hcm9zYWtmb3Jvc2guaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMjZmM2RjNzktYzFhNS00MGFhLWI5ZGQtNjQzNmI1ZTQxODhlIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI1OTQxIiwicHMiOiLwn4eu8J+HtyBAdjJyYXlpbmciLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9hysteria2://fr9p9ji70krwnup6@giftcard.gateway-stream.com:52056?security=tls&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u&insecure=0&sni=giftcard.gateway-stream.com#%40v2rayingvless://a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a@tg.riotvpn.eu:443?security=reality&encryption=none&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&headerType=none&fp=chrome&type=tcp&sni=ads.x5.ru&sid=2f49bccf11150ef2#%40v2rayingsocks://Og%3D%3D@91.213.151.4:1070#%40v2raying
+socks://Og%3D%3D@83.147.216.208:1080#🇬🇷GR_9|504KB/s|K001-260618
 socks://Og%3D%3D@47.76.175.249:1080#🇭🇰HK_81|388KB/s|R002-260618
-socks://Og%3D%3D@103.210.161.8:1080#🇭🇰HK_116|602KB/s|S001-260618
-socks://dGVzdDEyMzp0ZXN0MTIz@185.145.99.41:1080#🇺🇸US_444|266KB/s|S001-260618
+socks://Og%3D%3D@144.24.111.128:1088#🇮🇳IN_1|667KB/s|K001-260618
 socks://Og%3D%3D@144.91.111.48:1088#🇫🇷FR_430|92KB/s|R002-260618
 socks://dGVzdDEyMzp0ZXN0MTIz@104.168.249.36:1080#🇺🇸US_247|533KB/s
 socks://Og%3D%3D@160.22.17.4:9988#🇻🇳VN_1|444KB/s|R002-260618
-socks://Og%3D%3D@83.147.216.208:1080#🇬🇷GR_9|504KB/s|K001-260618
-socks://Og%3D%3D@144.24.111.128:1088#🇮🇳IN_1|667KB/s|K001-260618
+socks://Og%3D%3D@103.210.161.8:1080#🇭🇰HK_116|602KB/s|S001-260618
+socks://dGVzdDEyMzp0ZXN0MTIz@185.145.99.41:1080#🇺🇸US_444|266KB/s|S001-260618
 socks5://109.125.129.210:10800/#T.me/Vpn_Mafia
 socks5://178.252.165.226:1080/#T.me/Vpn_Mafia
 socks5://185.105.184.45:1110/#T.me/Vpn_Mafia
@@ -36,7 +37,6 @@ socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@fi-esp.pvdat
 socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@lu-lux.pvdata.host:1080?note=@FreeOnlineVPN#🇱🇺 - LU - @FreeOnlineVPN
 socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@pl-tor.pvdata.host:1080#@KAFING_2
 socks://MTIzOjEyMw@8.217.182.75:3060#@B2Hub
-socks://Og==@185.79.96.93:1070#🇮🇷170361 | ⚡️Telegram = t.me/SOSkeyNET
 socks://Og==@89.44.112.13:1100#@v2rayng3
 socks://Og@144.91.121.61:1088#@v2ray313 کانالمون 🇩🇪
 socks://Og@185.179.171.19:2080#🏴‍☠️@FreakConfig
@@ -46,3 +46,4 @@ socks://Og@92.42.207.16:7890#@prrofile_purple | 𝗙𝗮𝗦𝗧 💚
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ch-zur.pvdata.host:1080#@prrofile_purple | 𝗙𝗮𝗦𝗧 💚
 socks://UjM4WWNqMWJuR1F0RldQN2NMVU1neUdDOlRlbDZAU29vblRlYW0@hu-bud.pvdata.host:1080#🇭🇺@v2rayngsupbot
 socks://telegram-confixio@193.151.149.247:8220#ترکیبیConfixio@
+vless://656bb400-3b7a-47e3-94b0-0362f3865072@172.64.153.235:8443?path=/socks5://128.140.46.169:13482&security=tls&encryption=none&insecure=0&host=socks5.revil-time3.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=socks5.revil-time3.workers.dev#🇨🇦170513 | ⚡️Telegram = t.me/SOSkeyNET
