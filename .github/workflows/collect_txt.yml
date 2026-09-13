@@ -125,3 +125,71 @@ jobs:
           git commit --allow-empty -m "Auto-update deduplicated txt files [skip ci]"
           git pull --rebase origin main
           git push
+
+      # 1. Архивируем файлы по 20 МБ и формируем список содержимого .txt файлов
+      - name: Подготовка архивов и текста письма
+        id: prepare_mail
+        run: |
+          # Создаем дата-штамп (в формате: 13.09.2026 20:42)
+          NOW=$(date +'%d.%m.%Y %H:%M')
+          echo "subject_date=$NOW" >> $GITHUB_OUTPUT
+
+          # Запускаем Python-скрипт упаковки
+          python3 -c '
+          import os, zipfile
+
+          MAX_SIZE = 20 * 1024 * 1024  # 20 МБ
+          sub_dir = "sub"
+          
+          # Получаем все .txt файлы
+          files = [os.path.join(sub_dir, f) for f in sorted(os.listdir(sub_dir)) if f.endswith(".txt")]
+          
+          # Формируем список имен файлов без расширения .txt (например: "all, vless, vless2, ss")
+          txt_names = [os.path.splitext(f)[0] for f in sorted(os.listdir(sub_dir)) if f.endswith(".txt")]
+          txt_list_str = ", ".join(txt_names)
+
+          zip_index = 1
+          current_zip_name = f"sub_{zip_index}.zip"
+          current_zip = zipfile.ZipFile(current_zip_name, "w", zipfile.ZIP_DEFLATED)
+          current_size = 0
+
+          for file_path in files:
+              file_size = os.path.getsize(file_path)
+              
+              if current_size + file_size > MAX_SIZE and current_size > 0:
+                  current_zip.close()
+                  zip_index += 1
+                  current_zip_name = f"sub_{zip_index}.zip"
+                  current_zip = zipfile.ZipFile(current_zip_name, "w", zipfile.ZIP_DEFLATED)
+                  current_size = 0
+              
+              current_zip.write(file_path, arcname=os.path.basename(file_path))
+              current_size += file_size
+
+          current_zip.close()
+          
+          # Передаем список содержащихся файлов в GITHUB_OUTPUT
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"txt_files={txt_list_str}\n")
+          '
+
+      # 2. Отправка письма на Gmail
+      - name: Отправка архивов на Gmail
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "Обновление подписки (${{ steps.prepare_mail.outputs.subject_date }})"
+          to: ${{ secrets.MAIL_USERNAME }}
+          from: "GitHub Actions Bot"
+          body: |
+            Привет!
+
+            Скрипт успешно обработал конфигурации:
+            Во вложении находятся ${{ steps.prepare_mail.outputs.txt_files }}
+
+            С уважением, твой Github Actions.
+          attachments: sub_*.zip
