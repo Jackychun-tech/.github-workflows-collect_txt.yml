@@ -16,7 +16,6 @@ anytls://b652305a-0c63-4527-8cb3-0ea582076124@95.168.184.34:1443?insecure=1&sni=
 anytls://b652305a-0c63-4527-8cb3-0ea582076124@95.168.184.34:1443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=lon1.freeguard.org&insecure=1&udp=1&username=b652305a-0c63-4527-8cb3-0ea582076124#GB 🇬🇧 | @Raydikalx | BC8DC4
 anytls://d7340868-b74c-455a-8ce0-17a52afa43b7@134.195.101.162:21333/?insecure=1&sni=apple.com#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%C2%B7%20Black%20Mesa%20Corporation%20%7C%20134.195.101.162
 anytls://265528d9c0ae0a31656c3a84ba2b0d32c66fa21133896567@135.181.109.54:443/?peer=cn.bing.com&insecure=1&udp=1#%F0%9F%87%AB%F0%9F%87%AE%20Helsinki%2C%20FI%20%C2%B7%20Hetzner%20Online%20%7C%20135.181.109.54
-anytls://AOQ8R6Z8cODflQvPa6Q5pA%3D%3D@154.26.177.228:443?sni=154.26.177.228#%E2%98%B8%EF%B8%8F87%40oneclickvpnkeys
 anytls://b652305a-0c63-4527-8cb3-0ea582076124@176.32.39.116:1443?insecure=1&sni=msk4.freeguard.org#%F0%9F%87%B7%F0%9F%87%BA%20St%20Petersburg%2C%20RU%20%C2%B7%20LLC%20Baxet%20%7C%20176.32.39.116
 anytls://e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401@178.105.126.242:443?insecure=1&sni=cn.bing.com#%F0%9F%87%A9%F0%9F%87%AA%20Falkenstein%2C%20DE%20%C2%B7%20Hetzner%20Online%20%7C%20178.105.126.242%20%3A443%C2%B7anytls%C2%B7%233
 anytls://e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401@178.105.126.242:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&insecure=1&sub_tag=R002-260618&udp=1#%F0%9F%87%A9%F0%9F%87%AADE_56%7C2.2MB%2Fs%7CR002-260618
@@ -47,6 +46,7 @@ anytls://2d7bda32-a8b5-4416-a1ea-4559ff98f86e@us13.vipjiedian.sbs:21333?insecure
 anytls://2d7bda32-a8b5-4416-a1ea-4559ff98f86e@us13.vipjiedian.sbs:21333?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=apple.com&insecure=1&sub_tag=V007-260618&udp=1&username=2d7bda32-a8b5-4416-a1ea-4559ff98f86e#%F0%9F%87%BA%F0%9F%87%B8US_516%7C1.0MB%2Fs%7CV007-260618
 anytls://2d7bda32-a8b5-4416-a1ea-4559ff98f86e@us13.vipjiedian.sbs:21333?sni=apple.com#4Mohsen-fa6a9fc360
 anytls://363d3f39-bed2-3b6a-b692-c7c3236c2b1c@uscdn2.781220.xyz:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=uscdn2.781220.xyz&insecure=1&udp=1#US 🇺🇸 | @Raydikalx | 3C50ED
+anytls://363d3f39-bed2-3b6a-b692-c7c3236c2b1c@uscdn2.781220.xyz:443?sni=uscdn2.781220.xyz#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA%2018
 anytls://59d52716-c490-4b60-b1eb-76c95ac2a3ce@xxxxxxxxxxxx.luoyun2.com:17744?security=tls&sni=aom811.ly123.edu.kg&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20SG%20%C2%B7%20Amazon.com%20%7C%20xxxxxxxxxxxx.luoyun2.com%20%3A17744
 anytls://59d52716-c490-4b60-b1eb-76c95ac2a3ce@xxxxxxxxxxxx.luoyun2.com:34377?security=tls&sni=ydnxy710.ly123.edu.kg&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20SG%20%C2%B7%20Amazon.com%20%7C%20xxxxxxxxxxxx.luoyun2.com%20%3A34377
 anytls://bd54ceae-9b5c-477d-b364-ffd8e5c734a7@yazhouany02.downapptwo.cc:16955?insecure=1&security=tls&sni=taiguo02.swiftrelay.cc&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%B7%20Incheon%2C%20KR%20%C2%B7%20Amazon.com%20%7C%20yazhouany02.downapptwo.cc%20%3A16955
