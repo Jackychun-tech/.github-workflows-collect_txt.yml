@@ -26,38 +26,17 @@ jobs:
           rm -f sub/*.txt
           
           # 1. Скачиваем данные со всех источников
-          > temp_download.txt
+          > temp_raw.txt
           echo "$URLS" | while IFS= read -r url; do
-            clean_url=$(echo "$url" | tr -d '\r' | xargs)
+            # Безопасная очистка URL от пробелов и \r без использования xargs
+            clean_url=$(echo "$url" | tr -d '\r' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
             if [ -n "$clean_url" ]; then
-              curl -sSLf -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "$clean_url" >> temp_download.txt || true
-              echo "" >> temp_download.txt
+              curl -sSLf -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "$clean_url" >> temp_raw.txt || true
+              echo "" >> temp_raw.txt
             fi
           done
 
-          # 2. Декодируем Base64, если источник отдавал закодированный блок
-          > temp_raw.txt
-          while IFS= read -r line || [ -n "$line" ]; do
-            # Удаляем пробелы по краям и символы CR
-            clean_line=$(echo "$line" | tr -d '\r' | xargs)
-            [ -z "$clean_line" ] && continue
-
-            # Если строка содержит протокол напрямую, сохраняем
-            if echo "$clean_line" | grep -qE -i '(vless|vmess|ss|ssr|trojan|hysteria2|hy2|tuic|socks5|socks|wireguard|wg)://'; then
-              echo "$clean_line" >> temp_raw.txt
-            else
-              # Пробуем декодировать из Base64
-              decoded=$(echo "$clean_line" | base64 -d 2>/dev/null || true)
-              if echo "$decoded" | grep -qE -i '(vless|vmess|ss|ssr|trojan|hysteria2|hy2|tuic|socks5|socks|wireguard|wg)://'; then
-                echo "$decoded" >> temp_raw.txt
-              else
-                # Если не Base64, сохраняем как есть
-                echo "$clean_line" >> temp_raw.txt
-              fi
-            fi
-          done < temp_download.txt
-
-          # 3. Очищаем от дубликатов по части ДО знака #
+          # 2. Очищаем от дубликатов по части ДО знака #
           awk -F'#' '
             {
               gsub(/\r/, "")
@@ -66,7 +45,9 @@ jobs:
             $0 != "" && !seen[$1]++
           ' temp_raw.txt > temp_clean.txt
 
-          # Функция разбиения файлов по 50 000 строк
+          echo "Всего уникальных строк (ALL): $(wc -l < temp_clean.txt)"
+
+          # Функция для разбиения файла на части по 50 000 строк и переименования в target, target2...
           split_and_rename() {
             local input_file="$1"
             local prefix="$2"
@@ -88,10 +69,7 @@ jobs:
             fi
           }
 
-          # 4. Формируем all.txt, all2.txt...
-          split_and_rename "temp_clean.txt" "all"
-
-          # 5. Извлекаем протоколы из очищенной базы all (temp_clean.txt)
+          # 3. Фильтруем протоколы из единого очищенного файла temp_clean.txt ДО его разбиения
           grep -i 'vless://' temp_clean.txt > temp_vless.txt || true
           grep -i 'vmess://' temp_clean.txt > temp_vmess.txt || true
           grep -iE '(ss://|shadowsocks://)' temp_clean.txt > temp_ss.txt || true
@@ -102,7 +80,17 @@ jobs:
           grep -iE '(socks5://|socks://)' temp_clean.txt > temp_socks.txt || true
           grep -iE '(wireguard://|wg://)' temp_clean.txt > temp_wg.txt || true
 
-          # 6. Разбиваем файлы протоколов по 50 000 строк
+          # Выводим статистику в лог Actions
+          echo "VLESS: $(wc -l < temp_vless.txt)"
+          echo "VMESS: $(wc -l < temp_vmess.txt)"
+          echo "SS: $(wc -l < temp_ss.txt)"
+          echo "TROJAN: $(wc -l < temp_trojan.txt)"
+          echo "HY2: $(wc -l < temp_hy2.txt)"
+
+          # 4. Разбиваем общий файл (all) по 50 000 строк
+          split_and_rename "temp_clean.txt" "all"
+
+          # 5. Разбиваем файлы протоколов по 50 000 строк
           split_and_rename "temp_vless.txt" "vless"
           split_and_rename "temp_vmess.txt" "vmess"
           split_and_rename "temp_ss.txt" "ss"
@@ -113,7 +101,7 @@ jobs:
           split_and_rename "temp_socks.txt" "socks"
           split_and_rename "temp_wg.txt" "wg"
 
-          # 7. Удаление временных файлов
+          # 6. Удаляем временные файлы
           rm -f temp_*.txt
 
       - name: Принудительный коммит и пуш
