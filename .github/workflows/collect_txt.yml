@@ -1,4 +1,4 @@
-name: Collect TXT Files
+name: Collect TXT Files and Mail
 
 on:
   schedule:
@@ -51,21 +51,15 @@ jobs:
             my $host = "";
             my $type = 3; # 1 = IPv4, 2 = IPv6, 3 = Домен (по умолчанию)
 
-            # Извлекаем хост (IPv4, IPv6 или домен) из ссылки
             if ($line =~ m{://(?:[^@]+@)?(\[[a-fA-F0-9:]+\]|[^:/#\s\?]+)}) {
                 $host = $1;
-                
-                # Проверяем, является ли хост IPv4
                 if ($host =~ /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/) {
                     $type = 1;
-                } 
-                # Проверяем, является ли хост IPv6 (в квадратных скобках)
-                elsif ($host =~ /^\[[a-fA-F0-9:]+\]$/) {
+                } elsif ($host =~ /^\[[a-fA-F0-9:]+\]$/) {
                     $type = 2;
                 }
             }
 
-            # Выводим: ТИП_ХОСТА <табуляция> ХОСТ <табуляция> ИСХОДНАЯ_СТРОКА
             print "$type\t$host\t$line";
           ' temp_clean.txt | sort -V -k1,1 -k2,2 | cut -f3- > temp_sorted.txt
 
@@ -98,18 +92,16 @@ jobs:
           # 4. Разбиваем общие отсортированные данные (all, all2, all3...)
           split_and_rename "all" temp_clean.txt
 
-          # 5. Фильтруем по протоколам и разбиваем каждый по 50 000 строк
-          # Добавлены: anytls, https, ssr, wireguard, tg
+          # 5. Фильтруем по протоколам
           PROTOCOLS=("vless" "vmess" "ss" "ssr" "trojan" "hysteria" "hysteria2" "hy2" "tuic" "anytls" "wireguard" "tg" "socks5" "socks" "https" "http")
 
           for proto in "${PROTOCOLS[@]}"; do
-            # Флаг -a заставляет grep читать бинарные символы как обычный текст
             grep -ai "^${proto}://" temp_clean.txt > "temp_${proto}.txt" || true
             split_and_rename "$proto" "temp_${proto}.txt"
             rm -f "temp_${proto}.txt"
           done
 
-          # 6. Собираем все остальные ссылки, которые не подошли под указанные протоколы
+          # 6. Собираем остальные ссылки
           proto_regex=$(IFS='|'; echo "${PROTOCOLS[*]}")
           grep -aiE "^(${proto_regex})://" -v temp_clean.txt > temp_other.txt || true
           split_and_rename "other" temp_other.txt
@@ -117,27 +109,20 @@ jobs:
           # Очистка временных файлов
           rm -f temp_raw.txt temp_clean.txt temp_other.txt
 
-      - name: Принудительный коммит и пуш
+      - name: Архивация и отправка писем на Gmail
+        env:
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A sub/
-          git commit --allow-empty -m "Auto-update deduplicated txt files [skip ci]"
-          git pull --rebase origin main
-          git push
-
-      # Архивируем файлы и отправляем каждое письмо отдельно
-      - name: Архивация и отправка писем по частям
-        run: |
-          NOW=$(date +'%d.%m.%Y %H:%M')
-          
           python3 -c '
           import os, zipfile, smtplib
+          from datetime import datetime
           from email.mime.text import MIMEText
           from email.mime.multipart import MIMEMultipart
           from email.mime.application import MIMEApplication
 
-          MAX_SIZE = 15 * 1024 * 1024  # Лимит 15 МБ на ZIP (чтобы гарантированно пролезть в Gmail)
+          now_str = datetime.now().strftime("%d.%m.%Y %H:%M")
+          max_size = 60 * 1024 * 1024  # 15 МБ на один ZIP (гарантирует прохождение через Gmail)
           sub_dir = "sub"
           
           files = [os.path.join(sub_dir, f) for f in sorted(os.listdir(sub_dir)) if f.endswith(".txt")]
@@ -149,15 +134,19 @@ jobs:
           current_txts = []
 
           def send_email(zip_filename, txt_names, index):
-              mail_user = os.environ["MAIL_USERNAME"]
-              mail_pass = os.environ["MAIL_PASSWORD"]
+              mail_user = os.environ.get("MAIL_USERNAME")
+              mail_pass = os.environ.get("MAIL_PASSWORD")
               
+              if not mail_user or not mail_pass:
+                  print("Ошибка: MAIL_USERNAME или MAIL_PASSWORD не заданы в Secrets!")
+                  return
+
               txt_list_str = ", ".join(txt_names)
               
               msg = MIMEMultipart()
               msg["From"] = "GitHub Actions Bot"
               msg["To"] = mail_user
-              msg["Subject"] = f"Обновление подписки ({os.environ[\"NOW\"]}) [Часть {index}]"
+              msg["Subject"] = f"Обновление подписки ({now_str}) [Часть {index}]"
               
               body = f"Привет!\n\nСкрипт успешно обработал конфигурации:\nВо вложении находятся {txt_list_str}\n\nС уважением, твой Github Actions."
               msg.attach(MIMEText(body, "plain", "utf-8"))
@@ -170,13 +159,13 @@ jobs:
               with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
                   server.login(mail_user, mail_pass)
                   server.send_message(msg)
-              print(f"Письмо {index} успешно отправлено!")
+              print(f"Письмо {index} с архивом {zip_filename} успешно отправлено!")
 
           for file_path in files:
               file_size = os.path.getsize(file_path)
               txt_name = os.path.splitext(os.path.basename(file_path))[0]
               
-              if current_size + file_size > MAX_SIZE and current_size > 0:
+              if current_size + file_size > max_size and current_size > 0:
                   current_zip.close()
                   send_email(current_zip_name, current_txts, zip_index)
                   
@@ -194,7 +183,12 @@ jobs:
           if current_txts:
               send_email(current_zip_name, current_txts, zip_index)
           '
-        env:
-          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
-          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
-          NOW: $(date +'%d.%m.%Y %H:%M')
+
+      - name: Принудительный коммит и пуш
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A sub/
+          git commit --allow-empty -m "Auto-update deduplicated txt files [skip ci]"
+          git pull --rebase origin main
+          git push
