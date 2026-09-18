@@ -10,21 +10,22 @@ anytls://17801e53d30d1294651e44e788bd6b81b94031bac977c6c2@89.167.0.82:443/?peer=
 anytls://bdcd8ef90a3ad6a2ea0951c4a3a021579bb53925db828870@89.167.3.79:443/?peer=cn.bing.com&insecure=1&udp=1#%F0%9F%87%A9%F0%9F%87%AA%20Gunzenhausen%2C%20DE%20%C2%B7%20Hetzner%20Online%20%7C%2089.167.3.79
 anytls://fd4666556b7068060c90c646b073531b2c5256fa5ab0cfc2@89.167.8.93:443/?peer=cn.bing.com&insecure=1&udp=1#%F0%9F%87%A9%F0%9F%87%AA%20Gunzenhausen%2C%20DE%20%C2%B7%20Hetzner%20Online%20%7C%2089.167.8.93
 anytls://ff7bec3d2a17dfde8ef4b961b88739f3e69c39814a837173@89.167.45.138:443/?peer=cn.bing.com&insecure=1&udp=1#%F0%9F%87%A9%F0%9F%87%AA%20Gunzenhausen%2C%20DE%20%C2%B7%20Hetzner%20Online%20%7C%2089.167.45.138
+anytls://b652305a-0c63-4527-8cb3-0ea582076124@95.168.184.34:1443?insecure=1&sni=lon1.freeguard.org#%F0%9F%87%AC%F0%9F%87%A7%20Canary%20Wharf%2C%20GB%20%C2%B7%20Leaseweb%20UK%20Limited%20%7C%2095.168.184.34
 anytls://f3796a52ba2e7382b7e3a55eb01f3a9b82b334ee6722c3a0@135.181.109.54:443/?peer=cn.bing.com&insecure=1&udp=1#%F0%9F%87%AB%F0%9F%87%AE%20Helsinki%2C%20FI%20%C2%B7%20Hetzner%20Online%20%7C%20135.181.109.54
 anytls://AOQ8R6Z8cODflQvPa6Q5pA==@154.26.177.228:443/?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20Los%20Angeles%2C%20US%20%C2%B7%20DMIT%20Cloud%20Services%20%7C%20154.26.177.228
 anytls://b652305a-0c63-4527-8cb3-0ea582076124@176.32.39.116:1443?insecure=1&sni=msk4.freeguard.org#%F0%9F%87%B7%F0%9F%87%BA%20St%20Petersburg%2C%20RU%20%C2%B7%20LLC%20Baxet%20%7C%20176.32.39.116
 anytls://53c9301809f742ee777be97c064ffb0e2c222e4400a9e544@178.104.68.107:443/?peer=aparat.com&insecure=1&udp=1#%F0%9F%87%A9%F0%9F%87%AA%20Nuremberg%2C%20DE%20%C2%B7%20Hetzner%20Online%20%7C%20178.104.68.107
 anytls://e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401@178.105.126.242:443?insecure=1&sni=cn.bing.com#%F0%9F%87%A9%F0%9F%87%AA%20Falkenstein%2C%20DE%20%C2%B7%20Hetzner%20Online%20%7C%20178.105.126.242%20%3A443%C2%B7anytls
-anytls://e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401@178.105.126.242:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&insecure=1&sub_tag=R002-260618&udp=1#%E2%9D%93Other_68%7C213KB%2Fs%7CR002-260618
 anytls://e70ec0f2ab60e8c22b316156bf9ac43fec98b45be6681401@178.105.126.242:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=cn.bing.com&fp=chrome&idle_session_check_interval=30&idle_session_timeout=30&insecure=1&udp=1#DE 🇩🇪 | @Raydikalx | 66E6DE
 anytls://468bcf0cdf5a68d8b8035d5bb8d149acf9eb129bcbc7689c@178.156.196.52:443/?peer=aparat.com&insecure=1&udp=1#%F0%9F%87%BA%F0%9F%87%B8%20Ashburn%2C%20US%20%C2%B7%20Hetzner%20Online%20%7C%20178.156.196.52
 anytls://b652305a-0c63-4527-8cb3-0ea582076124@178.162.221.200:1443?insecure=1&sni=fra.freeguard.org#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%C2%B7%20Leaseweb%20Deutschland%20%7C%20178.162.221.200
 anytls://b652305a-0c63-4527-8cb3-0ea582076124@185.108.129.126:1443?insecure=1&sni=dmw.freeguard.org#%F0%9F%87%AE%F0%9F%87%AA%20Dublin%2C%20IE%20%C2%B7%20WebWorld%20%7C%20185.108.129.126
 anytls://b652305a-0c63-4527-8cb3-0ea582076124@194.113.194.231:1443?insecure=1&sni=ny.freeguard.org#%F0%9F%87%BA%F0%9F%87%B8%20Newark%2C%20US%20%C2%B7%20Kamatera%20%7C%20194.113.194.231
 anytls://b652305a-0c63-4527-8cb3-0ea582076124@195.54.170.7:1443?insecure=1&sni=no.freeguard.org#%F0%9F%87%B3%F0%9F%87%B4%20Norway%20%C2%B7%20M247%20Europe%20SRL%20%7C%20195.54.170.7
-anytls://9sK2mP8xQ7vL3nZ6@6ivh.pnuqcnp.cn:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=images.ctfassets.net&insecure=1&udp=1#TW 🇹🇼 | @Raydikalx | 724DF8
-anytls://github.com/Alvin9999-newpac/fanqiang@anytls2.864106.xyz:19000?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=anytls2.864106.xyz&insecure=1&sub_tag=R002-260618&udp=1#%F0%9F%87%BA%F0%9F%87%B8US_194%7C1.1MB%2Fs%7CR002-260618
-anytls://github.com/Alvin9999-newpac/fanqiang@anytls2.864106.xyz:19000?sni=anytls2.864106.xyz#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%7C%20USA
+anytls://9sK2mP8xQ7vL3nZ6@6ivh.pnuqcnp.cn:443?security=tls&type=tcp&allowInsecure=1&sni=images.ctfassets.net&insecure=1&udp=1#%F0%9F%87%B9%F0%9F%87%BC%20Changhua%2C%20TW%20%C2%B7%20Data%20Communication%E2%80%A6%20%7C%206ivh.pnuqcnp.cn
+anytls://9sK2mP8xQ7vL3nZ6@6ivh.pnuqcnp.cn:443?sni=images.ctfassets.net#%F0%9F%87%B9%F0%9F%87%BCTW_1%7C5.1MB/s
+anytls://e78c9b0e-2e52-3ca8-bae2-ed04d8894f61@aic-1.serbia-maki.stream:443?sni=aic-1.serbia-maki.stream#%F0%9F%87%AD%F0%9F%87%B0%20%E9%A6%99%E6%B8%AF%20%7C%20HKG
+anytls://github.com/Alvin9999-newpac/fanqiang@anytls2.864106.xyz:19000?sni=anytls2.864106.xyz#%F0%9F%87%BA%F0%9F%87%B8US_4%7C3.3MB/s
 anytls://29204996-a723-4291-8c70-30843b592d40@as-jp37.y1static-content-distribution.shop:443/?insecure=1&sni=as-jp37.y1static-content-distribution.shop#%F0%9F%87%AF%F0%9F%87%B5%20Inzai%2C%20JP%20%C2%B7%20Oracle%20Corporation%20%7C%20as-jp37.y1static-content-distribution.shop
 anytls://bkdOmAKY89uSN5lHP1%2BihQ%3D%3D@atxng.com:443?sni=atxng.com#%40CyberNigga2
 anytls://2d7bda32-a8b5-4416-a1ea-4559ff98f86e@us13.vipjiedian.sbs:21333?insecure=1&sni=apple.com#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%C2%B7%20Black%20Mesa%20Corporation%20%7C%20us13.vipjiedian.sbs
