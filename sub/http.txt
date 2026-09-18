@@ -97,7 +97,7 @@ http://None@193.176.84.34:9002?tls=true#%F0%9F%87%B7%F0%9F%87%B4RO-193.176.84.34
 http://None:@193.176.84.37:9002#%F0%9F%87%B7%F0%9F%87%B4RO-193.176.84.37-0498
 http://None@193.176.84.37:9002?tls=true#%F0%9F%87%B7%F0%9F%87%B4RO-193.176.84.37-0498
 http://193.176.84.38:9002#%F0%9F%87%B7%F0%9F%87%B4RO-193.176.84.38-0518
-http://config-england.zelnora.ir:1080#%5B%F0%9F%8F%81%5Dt.me/ConfigV2RayNG%231
+http://config-england.zelnora.ir:1080#%5B%F0%9F%8F%81%5Dt.me/ConfigV2RayNG%236
 http://fullmanfirm.icu:443#%F0%9F%87%BA%F0%9F%87%B8US-72.52.87.52-0507
 http://null:@goedkoopgeluid.icu:443#%F0%9F%87%BA%F0%9F%87%B8US-65.49.68.47-0491
 http://null@goedkoopgeluid.icu:443?tls=true&username=null#%F0%9F%87%BA%F0%9F%87%B8US-65.49.68.47-0491
