@@ -13,7 +13,7 @@ hysteria://1.162.173.82:22334?upmbps=50&downmbps=80&auth=dongtaiwang.com&insecur
 hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=1000&obfsParam=&protocol=udp&insecure=1&peer=apple.com&sub_tag=C002-260622&upmbps=500&udp=true#%F0%9F%87%A9%F0%9F%87%AADE_31%7C813KB%2Fs%7CC002-260622
 hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=1000&obfsParam=&protocol=udp&insecure=1&peer=apple.com&upmbps=500&auth=dongtaiwang.com#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%C2%B7%20Takehost%20Ou%20%7C%205.83.129.90%20%3A54177%C2%B7hysteria
 hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=55&obfsParam=&insecure=1&peer=bing.com&sub_tag=K001-260618&upmbps=11&udp=true#%F0%9F%87%A9%F0%9F%87%AADE_32%7C802KB%2Fs%7CK001-260618
-hysteria://5.83.129.90:54177?auth=&peer=bing.com&upmbps=11&downmbps=55&insecure=1#4Sarina-3bb86b726b
+hysteria://5.83.129.90:54177?auth=dongtaiwang.com&peer=5.83.129.90&upmbps=500&downmbps=1000&insecure=1#4Sarina-23cf019e84
 hysteria://dongtaiwang.com@5.83.129.90:54177?alpn=h3&downmbps=1000&insecure=1&sni=apple.com&upmbps=500#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%C2%B7%20Takehost%20Ou%20%7C%205.83.129.90%20%3A54177
 hysteria://5.83.129.153:20088/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=10&downmbps=50&alpn=h3#德国
 hysteria://5.83.129.153:20088?alpn=h3&auth_str=dongtaiwang.com&downmbps=1000&obfsParam=&protocol=udp&insecure=1&peer=apple.com&sub_tag=C002-260622&upmbps=500&udp=true#%F0%9F%87%A9%F0%9F%87%AADE_48%7C802KB%2Fs%7CC002-260622
