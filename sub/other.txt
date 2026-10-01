@@ -1,18 +1,16 @@
-sdns://AQcAAAAAAAAADjEwMy4xMDguMjI4LjE1ILAWh1FyQgZtjFxK9KuFzaJfUBQpjrxnlDNMaUiEo5UWGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
 sdns://AQcAAAAAAAAADjEwMy4xMTQuMTYyLjY1IKbTxlVrc12BNolzMCksgqjW75nTqlnHp95UlrGWqm-UGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-sdns://AQcAAAAAAAAADjEwOC4xODEuNTAuMjE4IDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw26laHjIuZG5zY3J5cHQtY2VydC5jcnlwdG9zdG9ybS5pcw
-sdns://AQcAAAAAAAAADjIxNi4yNDUuMTQwLjIwIOUvdbEOhupyl3_MymoToO-zVeHubT5q6UveXcvkAHAzGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-sdns://AQcAAAAAAAAADjc3LjI0Ny4xMjcuMTA3IJOWzrgz5XhvHJtWLbFAFhcg9_e11cQSpjMcGFMUsHxJGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-sdns://AgMAAAAAAAAADjE3NC4xMzguMjkuMTc1ILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0DGRvaC50aWFyLmFwcAovZG5zLXF1ZXJ5
-sdns://AgYAAAAAAAAADDg5LjIzMy40My43MSCQeNIaVsDgiR2QYiG2mSMxvdFxcusPM92gfVxlxuFMORl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
-sdns://AgcAAAAAAAAAE1syNjA1OmZhODA6MToxNzo6YV0gjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPaW5kMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
-sdns://AgcAAAAAAAAAH1syYzBmOmU4Zjg6MjAwMDoyMzM6OjQyNTQ6YzViMl0gjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPbXJ1MDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
-sdns://gQ8xODUuMjMxLjEwMC4xMDY
-sdns://gQwxOTYuNDYuNTAuOTM
-sdns://gR1bMmExMzo5NDAzOjo3YTZhOjUzMDY6MWUzNToxXQ
-sdns://gRMxNjUuMjMxLjI1My4xNjM6NDQz
-sdns://gRdbMjgwNDozOTFjOjA6Nzo6NTNdOjQ0Mw
-sdns://gRhbMjAwMTo0NzA6MWYyMzoxMzk6OmI6Yl0
+sdns://AQcAAAAAAAAADjEwNy4xODIuMTczLjgzIEKIFoJ_rsdGy6WtY-lA2RFoVLxHUNT_zox8rttFjbrcGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
+sdns://AQcAAAAAAAAAEzE2Ny4yMzMuMjQxLjEwMTo0NDMgp-gLrhNDDtyqPkVz0AIvWp184aGspPPNUCvfSvLrS2gfMi5kbnNjcnlwdC1jZXJ0Lm5iZy1kbnNjcnlwdC5ldQ
+sdns://AgIAAAAAAAAADjExNi4yMDIuMTc2LjI2INYdluv7P6GQluLAAuNgO_f9qu-yJwTahmgGK76G7UuTD2RvaC5saWJyZWRucy5ncgovZG5zLXF1ZXJ5
+sdns://AgUAAAAAAAAACTc3Ljg4LjguMSAfoX_ObDDtbw3sSwas9BpsjE_wMgInWystIWh0TbH3mAk3Ny44OC44LjEKL2Rucy1xdWVyeQ
+sdns://AgYAAAAAAAAAElsyYTAxOjNhMDo1Mzo1Mzo6XSCQeNIaVsDgiR2QYiG2mSMxvdFxcusPM92gfVxlxuFMORl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADDgwLjY3LjE2OS40MCCQeNIaVsDgiR2QYiG2mSMxvdFxcusPM92gfVxlxuFMOQpuczEuZmRuLmZyCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADzE0Ny4xODkuMTQwLjEzNiCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9mbnQwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAFFsyYTBjOjlhNDA6ZTEwMDo6NTNdIIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50FG9wZW4uZG5zLmRyZW1heHguY29tCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAFlsyNjA2OjQ3MDA6NDcwMDo6MTExMV0AGlsyNjA2OjQ3MDA6NDcwMDo6MTExMV06NDQzCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAFlsyYTA2OmRlMDA6NDAxOjIyNzo6Ml0gjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPZHVzMDIuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAGFsyNjA3OmE2ODA6OTpmMDA1Ojo4NmU3XSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdA9zZWEwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAH1syMDAxOjJjMDoxMDA6NDA5OjE0OmNhZmU6ZDk6MV0gGCIAvAfxCOu-YYCtJCF6Kyz1g5KF4AQjN8UH6BKbswIOZG5zLmVraW5hby5jb20KL2Rucy1xdWVyeQ
 allowed-ips: "0.0.0.0/0, ::/0"
 dns: "1.1.1.1"
 ip: "10.0.125.43/32,2a0e:1c80:1337:1:10:0:125:43/128"
@@ -186,13 +184,40 @@ server: "[2606:4700:d0::a29f:c003]"
 server: "[2606:4700:d0::a29f:c00b]"
 server: "engage.cloudflareclient.com"
 type: wireguard
+"add": "awlix4.pcjxq.digital",
+"add": "mute-math-d64e.0e503992ad7026.WOrKERs.deV",
+"aid": "0",
+"alpn": "",
+"alpn": "h3,h2,http/1.1",
+"fp": "",
+"fp": "edge"
+"host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV",
+"id": "03fcc618-b93d-6796-6aed-8a38c975d581",
+"id": "9dcb8d73-cc0b-4fcc-a12d-d7affb56267c",
+"insecure": "0",
+"net": "tcp",
+"net": "ws",
+"path": "/aveiror.com:443/linkvws",
+"pcs": ""
+"port": "443",
+"port": "8443",
+"ps": "@awlix_ir",
+"ps": "@iranvpnet",
+"scy": "auto",
+"sni": "",
+"sni": "mute-math-d64e.0e503992ad7026.woRKERS.DeV",
+"tls": "",
+"tls": "tls",
+"type": "none",
+"vcn": "",
+"v": "2",
 # profile-title: kudryash0vv.Mobile.#1
 - name: "🇩🇪 Düsseldorf, DE · Owl Limited | 176.113.68.6"
 - name: "🇬🇷 Athens, GR · Datacamp Limited | 79.127.218.5"
 - name: "🌐 Cloudflare | 162.159.192.0"
 - name: "🌐 Cloudflare | 162.159.192.1 :500"
 - name: "🌐 Cloudflare | 162.159.192.111"
-- name: "🌐 Cloudflare | 162.159.192.13 :891"
+- name: "🌐 Cloudflare | 162.159.192.13"
 - name: "🌐 Cloudflare | 162.159.192.145 :4177"
 - name: "🌐 Cloudflare | 162.159.192.15"
 - name: "🌐 Cloudflare | 162.159.192.18"
@@ -203,8 +228,8 @@ type: wireguard
 - name: "🌐 Cloudflare | 162.159.195.194"
 - name: "🌐 Cloudflare | 162.159.195.230"
 - name: "🌐 Cloudflare | 162.159.195.25"
-- name: "🌐 Cloudflare | 162.159.195.3"
-- name: "🌐 Cloudflare | 162.159.195.4 :2371"
+- name: "🌐 Cloudflare | 162.159.195.3 :5279"
+- name: "🌐 Cloudflare | 162.159.195.4"
 - name: "🌐 Cloudflare | 162.159.195.48 :5279"
 - name: "🌐 Cloudflare | 162.159.195.8 :3581"
 - name: "🌐 Cloudflare | 162.159.195.8 :7559"
@@ -226,8 +251,9 @@ type: wireguard
 - name: "🌐 Cloudflare | 188.114.99.253"
 - name: "🌐 Cloudflare | 188.114.99.33 :908"
 - name: "🌐 Cloudflare | 188.114.99.53 :908"
-- name: "🌐 Cloudflare | [[2606:4700:d0::a29f:c003]] :2408"
+- name: "🌐 Cloudflare | [[2606:4700:d0::a29f:c003]]"
 - name: "🌐 Cloudflare | [[2606:4700:d0::a29f:c00b]] :500"
 - name: "🌐 Cloudflare | [[2606:4700:d0::a29f:c00b]] :939"
 - name: "🌐 Cloudflare | engage.cloudflareclient.com :4500"
 ==================================================
+}# By EbraSha 📟
