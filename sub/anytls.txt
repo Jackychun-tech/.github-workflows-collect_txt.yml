@@ -25,6 +25,7 @@ anytls://bkdOmAKY89uSN5lHP1%2BihQ%3D%3D@atxng.com:443?sni=atxng.com#%40CyberNigg
 anytls://9sK2mP8xQ7vL3nZ6@awefd2313fefarg23fr24.pnuqcnp.cn:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=images.ctfassets.net&insecure=1&sub_tag=R002-260618&udp=1&username=9sK2mP8xQ7vL3nZ6#%F0%9F%87%B9%F0%9F%87%BC%20Chang-Hua%2C%20TW%20%C2%B7%20Data%20Communication%E2%80%A6%20%7C%20awefd2313fefarg23fr24.pnuqcnp.cn
 anytls://9sK2mP8xQ7vL3nZ6@awefd2313fefarg23fr24.pnuqcnp.cn:443?sni=images.ctfassets.net#4Jadi-e73dd5f598
 anytls://9e98496a-0036-4cc6-8302-3929c29ba772@iijjp.mggl.wang:35791?sni=www.apple.com#4Nika-59f613c70f
+anytls://github.com/Alvin9999-newpac/fanqiang@ip5.934618.xyz:30099?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=ip5.934618.xyz&insecure=1&udp=1#FR 🇫🇷 | @Raydikalx | 58F1FE
 anytls://github.com/Alvin9999-newpac/fanqiang@ip5.934618.xyz:30099?sni=ip5.934618.xyz#%F0%9F%97%B3%EF%B8%8F65%40oneclickvpnkeys
 anytls://3fc0f254-54c3-4cf3-896b-5999a2b4c757@jpglobal-identity-federation-auth.younai-ytl.shop:65308?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=jp11.pulsarcore.site&insecure=1&udp=1#%F0%9F%87%AF%F0%9F%87%B5%20Tokyo%2C%20JP%20%C2%B7%20Amazon.com%20%7C%20jpglobal-identity-federation-auth.younai-ytl.shop
 anytls://3fc0f254-54c3-4cf3-896b-5999a2b4c757@jpglobal-identity-federation-auth.younai-ytl.shop:65308?sni=jp11.pulsarcore.site#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20%7C%20JPN
