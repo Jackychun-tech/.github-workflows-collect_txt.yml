@@ -1,20 +1,25 @@
-sdns://AQMAAAAAAAAADDkuOS45Ljk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 sdns://AQcAAAAAAAAADDQ1LjgwLjIwOS41NSBRqTRnzxNNFAm2RL2O30OikS0iH19NmFv0HfSfn7-8NBkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-sdns://AQcAAAAAAAAADTQ1LjE0Ny41MS4xMjMgIXwiAp3nzMSapyRop7AbWNG8rFfD1aGhvvGSXFdfv24ZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
-sdns://AQcAAAAAAAAAFlsyNDAwOjgxYzA6ZGMwMTo4NTo6Ml0g7AYCi4Y_78OEeFSwGAHtJSDSGRDCJhoUG6B-rLG46eMZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
-sdns://AgEAAAAAAAAACjEwMy4yLjU3LjUgkHjSGlbA4IkdkGIhtpkjMb3RcXLrDzPdoH1cZcbhTDkRcHVibGljLmRucy5paWouanAKL2Rucy1xdWVyeQ
-sdns://AgMAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNDo6NjgxNTo0MTNjXQAOZG9oLnRpYXJhcC5vcmcKL2Rucy1xdWVyeQ
-sdns://AgUAAAAAAAAAF1syYTAyOjZiODowOjE6OmZlZWQ6ZmZdIB-hf85sMO1vDexLBqz0GmyMT_AyAidbKy0haHRNsfeYCTc3Ljg4LjguMQovZG5zLXF1ZXJ5
-sdns://AgYAAAAAAAAACDkuOS45LjEyILAZIHRLu3bJqwU-AeB7fgUORz0g95976kNfr-Q8nSQvE2RuczEyLnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
-sdns://AgcAAAAAAAAADjEwMi4yMjIuMTA2Ljk2IIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50D21ydTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-sdns://AgcAAAAAAAAADzE2MC4xOTEuMTgyLjIxNiCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9ibHIwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
-sdns://AgcAAAAAAAAAFFsyYTA3OmQ4ODQ6MTAwOjozNDRdILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0D2ZyYTAyLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-sdns://AgcAAAAAAAAAFVsyNjAyOmZlZDI6ZmIwOjZkOjoxXSCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA95dnIwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
-sdns://AgcAAAAAAAAAGFsyMDAxOjQ3MDoxZjIzOjEzOTo6YjpiXSCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9tcnUwMi5kbnNjcnkucHQKL2Rucy1xdWVyeQ
-sdns://gQ42My4xMzMuMjIzLjEzOA
-sdns://gRNbMmEwNTo5MDE6NjoxMDQ4Ojpd
-sdns://gRhbMjYwMjpmZWQyOjcxOTg6N2FmMTo6MV0
-sdns://gRlbMmEwZDo1NjAwOjI0OjU0Ojo1M106NDQz
+sdns://AQcAAAAAAAAADTIxNy4xMi4yMjEuNjEgskgLubDTWs4bK9zH1IXKRYSylrG8XVPGWMJpUM37vwUZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
+sdns://AQcAAAAAAAAADjEwOC4xODEuNjkuMTUzIKai-Qjyp6DgYnQVy1gEzvb3-NTklTiCmy4Afgv7TRJVGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
+sdns://AQcAAAAAAAAAFFsyYTEyOjZmYzQ6ODAwMDo6ODldIBs2p0t-oLFUHVS5zHeDdaphgwku_vIv97hyz9I47Nk7GTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
+sdns://AgUAAAAAAAAAE1syYTAyOjZiODo6ZmVlZDpmZl0gH6F_zmww7W8N7EsGrPQabIxP8DICJ1srLSFodE2x95gJNzcuODguOC4xCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAACjQ1LjkwLjMwLjAgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkWYW55Y2FzdC5kbnMubmV4dGRucy5pbwovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAACjUuMS42Ni4yNTUgnUgyu0yNdyB7Jd4XWSaC78PKRfV53GZKDtXySPXJM5gNZG9oLmZmbXVjLm5ldAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAACzgyLjIyLjIwLjM0ILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0D25jbDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADTE5NC4zOS4yMDUuMTAgsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQPbXVjMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADTEwMy4xNzQuNTEuNzEgjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPZGFjMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADjE3NS40NS4xODIuMTc5ILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0D2FkbDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjEwNy4xODIuMTczLjgzILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0D29nZDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADzE1MS4yNDUuMTA2LjE4MSCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9zZWwwMi5kbnNjcnkucHQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAG1syNjA3OmYzNTg6MWE6ZTo6OGFhMjo5MzMzXSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdA9zamMwMi5kbnNjcnkucHQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAGFsyNDA0Ojk0MDA6NjhmMToxMDA6OjUzXSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdA9hZGwwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAJVsyYTAzOjQwMDA6NWM6NTE6MjRiOTo1MWZmOmZlODA6ZjNhN10gsl8vNpZ_c5TwmTeIWzM_qjVtcZ_qzzjM6fA1UADz4XQPbnVlMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+sdns://gQ01LjEzNC4xMTguMTk4
+sdns://gQw4OS4zNi4xNjIuNzY
+sdns://gQwxMDMuMTc5LjQ1LjY
+sdns://gQwxNjUuOTkuOS4yMDk
+sdns://gRNbMjYwMDo0YzAwOjgwOjg6OmFd
+sdns://gRhbMjAwMTo0NzA6MWYyMzoxMzk6OmI6Yl0
 happ://routing/onadd/eyJOYW1lIjoiVGc6IFZsZXNzRm9ydSAgIiwiR2xvYmFsUHJveHkiOiJ0cnVlIiwiVXNlQ2h1bmtGaWxlcyI6InRydWUiLCJSZW1vdGVEbnMiOiI5NC4xNDAuMTQuMTQiLCJEb21lc3RpY0RucyI6Ijc3Ljg4LjguOCIsIlJlbW90ZUROU1R5cGUiOiJEb0giLCJSZW1vdGVETlNEb21haW4iOiJodHRwczovL2Rucy5hZGd1YXJkLWRucy5jb20vZG5zLXF1ZXJ5IiwiUmVtb3RlRE5TSVAiOiI4LjguOC44IiwiRG9tZXN0aWNETlNUeXBlIjoiRG9IIiwiRG9tZXN0aWNETlNEb21haW4iOiJodHRwczovLzc3Ljg4LjguOC9kbnMtcXVlcnkiLCJEb21lc3RpY0ROU0lQIjoiNzcuODguOC44IiwiR2VvaXB1cmwiOiJodHRwczovL3N1Yi52bGVzc2ZvLnJ1L3ZsZXNzZm9ydS9nZW9pcC5kYXQiLCJHZW9zaXRldXJsIjoiaHR0cHM6Ly9zdWIudmxlc3Nmby5ydS92bGVzc2ZvcnUvZ2Vvc2l0ZS5kYXQiLCJMYXN0VXBkYXRlZCI6IjE3ODY0OTI4MDAiLCJEbnNIb3N0cyI6eyJsa2ZsMi5uYWxvZy5ydSI6IjIxMy4yNC42NC4xNzUiLCJsa25wZC5uYWxvZy5ydSI6IjIxMy4yNC42NC4xODEifSwiUm91dGVPcmRlciI6ImJsb2NrLXByb3h5LWRpcmVjdCIsIkRpcmVjdFNpdGVzIjpbImdlb3NpdGU6cHJpdmF0ZSIsImdlb3NpdGU6Y2F0ZWdvcnktcnUiLCJwcm90b2NvbDpiaXR0b3JyZW50IiwiZG9tYWluOjJnaXMucnUiLCJkb21haW46YWRzLng1LnJ1IiwiZG9tYWluOjJnaXMuY29tIiwiZG9tYWluOmFpZi5ydSIsImRvbWFpbjphZXJvZmxvdC5ydSIsImRvbWFpbjphbGZhYmFuay5ydSIsImRvbWFpbjphdml0by5ydSIsImRvbWFpbjpiZWVsaW5lLnJ1IiwiZG9tYWluOmJ1cmdlcmtpbmdydXMucnUiLCJkb21haW46ZGVsbGluLnJ1IiwiZG9tYWluOmRyaXZlMi5ydSIsImRvbWFpbjpkemVuLnJ1IiwiZG9tYWluOmZseXBvYmVkYS5ydSIsImRvbWFpbjpmb3JiZXMucnUiLCJkb21haW46Z2F6ZXRhLnJ1IiwiZG9tYWluOmdhenByb21iYW5rLnJ1IiwiZG9tYWluOmdpc21ldGVvLnJ1IiwiZG9tYWluOmdvc3VzbHVnaS5ydSIsImRvbWFpbjpoaC5ydSIsImRvbWFpbjprb250dXIucnUiLCJkb21haW46a29udHVyLmhvc3QiLCJkb21haW46a3AucnUiLCJkb21haW46a3VwZXIucnUiLCJkb21haW46bGVudGEucnUiLCJkb21haW46bWFpbC5ydSIsImRvbWFpbjptYXgucnUiLCJkb21haW46bWVnYW1hcmtldC5ydSIsImRvbWFpbjptZWdhbWFya2V0LnRlY2giLCJkb21haW46bWVnYWZvbi5ydSIsImRvbWFpbjptb2V4LmNvbSIsImRvbWFpbjptb3RpdnRlbGVjb20ucnUiLCJkb21haW46b3pvbi5ydSIsImRvbWFpbjpwZXJ2eWUucnUiLCJkb21haW46cHNiYW5rLnJ1IiwiZG9tYWluOnJhbWJsZXIucnUiLCJkb21haW46cmFtYmxlci1jby5ydSIsImRvbWFpbjpyYmMucnUiLCJkb21haW46cmVnLnJ1IiwiZG9tYWluOnJldmlld3MuMmdpcy5jb20iLCJkb21haW46cmcucnUiLCJkb21haW46cmlhLnJ1IiwiZG9tYWluOnJ1d2lraS5ydSIsImRvbWFpbjpydXN0b3JlLnJ1IiwiZG9tYWluOnJ1dHViZS5ydSIsImRvbWFpbjpyemQucnUiLCJkb21haW46c2lyZW5hLXRyYXZlbC5ydSIsImRvbWFpbjpzcmF2bmkucnUiLCJkb21haW46dC1qLnJ1IiwiZG9tYWluOnQyLnJ1IiwiZG9tYWluOnRhbmstb25saW5lLmNvbSIsImRvbWFpbjp0YXhpbWF4aW0ucnUiLCJkb21haW46dGJhbmstb25saW5lLmNvbSIsImRvbWFpbjppbWdzbWFpbC5ydSIsImRvbWFpbjpvay5ydSIsImRvbWFpbjp5YWRyby5ydSIsImRvbWFpbjp0aWxkYWFwaS5jb20iLCJkb21haW46dG5zLWNvdW50ZXIucnUiLCJkb21haW46dHJ2bC55YW5kZXgubmV0IiwiZG9tYWluOnR1dHUucnUiLCJkb21haW46dmsuY29tIiwiZG9tYWluOnZrLnJ1IiwiZG9tYWluOnZrdmlkZW8ucnUiLCJkb21haW46dnRiLnJ1IiwiZG9tYWluOng1LnJ1IiwiZG9tYWluOnlhLnJ1IiwiZG9tYWluOnlhbmRleC5ydSIsImRvbWFpbjp5YW5kZXgubmV0IiwiZG9tYWluOnlhbmRleC5jb20iLCJkb21haW46eWFzdGF0aWMubmV0IiwiZG9tYWluOnlhbmRleGNsb3VkLm5ldCIsImRvbWFpbjp3aWxkYmVycmllcy5ydSIsImRvbWFpbjp3YmJhc2tldC5ydSIsImZ1bGw6Z28ueWFuZGV4IiwiZnVsbDpydS5ydXdpa2kucnUiLCJkb21haW46YXZpdG8uc3QiLCJkb21haW46Z2VvYmFza2V0LnJ1IiwiZG9tYWluOndiLnJ1IiwiZG9tYWluOnhuLS05MGFjYWdiaGdwY2E3YzhjN2YueG4tLXAxYWkiLCJkb21haW46eG4tLTgwYWpnaGhvYzJhajFjOGIueG4tLXAxYWkiLCJkb21haW46eG4tLTkwYWl2Y2R0NmR4YmMueG4tLXAxYWkiLCJkb21haW46eG4tLWIxYWV3LnhuLS1wMWFpIiwiZG9tYWluOm9uZW1lLmFwcCIsImRvbWFpbjpvbmVtZS5ydSIsImRvbWFpbjpteWNkbi5tZSIsImRvbWFpbjp2a3VzZXIubmV0IiwiZG9tYWluOnlhc3RhdGljLnJ1IiwiZG9tYWluOnlhbmRleC5uZXQiLCJkb21haW46dm9za2hvZC5ydSIsImRvbWFpbjphcHB0cmFjZXIucnUiXSwiRGlyZWN0SXAiOlsiZ2VvaXA6cHJpdmF0ZSIsIjg5LjIwOC44NS4xODgiXSwiUHJveHlTaXRlcyI6WyJnZW9zaXRlOnRlbGVncmFtIiwiZG9tYWluOnZsZXNzZm8ucnUiXSwiUHJveHlJcCI6W10sIkJsb2NrU2l0ZXMiOlsiIl0sIkJsb2NrSXAiOltdLCJEb21haW5TdHJhdGVneSI6IklQSWZOb25NYXRjaCIsIkZha2VETlMiOiJ0cnVlIn0=
 allowed-ips: "0.0.0.0/0, ::/0"
 dns: "1.1.1.1"
@@ -192,44 +197,11 @@ server: "[2606:4700:d0::a29f:c003]"
 server: "[2606:4700:d0::a29f:c00b]"
 server: "engage.cloudflareclient.com"
 type: wireguard
-"add": "77.42.77.66",
-"add": "awlix4.pcjxq.digital",
-"add": "mute-math-d64e.0e503992ad7026.WOrKERs.deV",
-"aid": "0",
-"alpn": "",
-"alpn": "h3,h2,http/1.1",
-"fp": "",
-"fp": "edge"
-"host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV",
-"id": "03fcc618-b93d-6796-6aed-8a38c975d581",
-"id": "73feeed6-9a40-45b0-a26d-84770f5f05fd",
-"id": "9dcb8d73-cc0b-4fcc-a12d-d7affb56267c",
-"insecure": "0",
-"net": "tcp",
-"net": "ws",
-"path": "/aveiror.com:443/linkvws",
-"pcs": ""
-"port": "443",
-"port": "8443",
-"port": 40100,
-"ps": "@awlix_ir",
-"ps": "@iranvpnet",
-"ps": "v5skg2l8",
-"scy": "auto",
-"sni": "",
-"sni": "mute-math-d64e.0e503992ad7026.woRKERS.DeV",
-"tls": "",
-"tls": "none",
-"tls": "tls",
-"type": "none"
-"type": "none",
-"vcn": "",
-"v": "2",
 # profile-title: kudryash0vv.Mobile.#1
 - name: "🇩🇪 Düsseldorf, DE · Owl Limited | 176.113.68.6"
 - name: "🇬🇷 Athens, GR · Datacamp Limited | 79.127.218.5"
 - name: "🌐 Cloudflare | 162.159.192.0"
-- name: "🌐 Cloudflare | 162.159.192.1 :500·wireguard·#4"
+- name: "🌐 Cloudflare | 162.159.192.1 :500"
 - name: "🌐 Cloudflare | 162.159.192.111"
 - name: "🌐 Cloudflare | 162.159.192.13"
 - name: "🌐 Cloudflare | 162.159.192.145 :4177"
@@ -238,7 +210,7 @@ type: wireguard
 - name: "🌐 Cloudflare | 162.159.192.2 :878"
 - name: "🌐 Cloudflare | 162.159.192.20 :1002"
 - name: "🌐 Cloudflare | 162.159.192.20 :903"
-- name: "🌐 Cloudflare | 162.159.192.4 :500·wireguard"
+- name: "🌐 Cloudflare | 162.159.192.4 :500"
 - name: "🌐 Cloudflare | 162.159.195.194"
 - name: "🌐 Cloudflare | 162.159.195.230"
 - name: "🌐 Cloudflare | 162.159.195.25"
@@ -271,5 +243,3 @@ type: wireguard
 - name: "🌐 Cloudflare | [[2606:4700:d0::a29f:c00b]] :939"
 - name: "🌐 Cloudflare | engage.cloudflareclient.com :4500"
 ==================================================
-}# By EbraSha 📶
-¥+G¼ÜÓþ{ëlØtÏªmÅz<ðç«V"©Þv´#  Ë=J@ÚÜ7Á £ÀBÿEyù@Æ¢à<Xíæ27#ÂLd ¡8'³öGJ©óR×Õ,j-@ªN´~ÅU²bJÿA3vSØA'ûPXÚ«KºÈkâ]îfzdmëõ\YRÐTl>¦O_dcyb­]0µØlXDÂj¯"6Ò !(ö/Ë^B$5©ZÍõÍ	ÆHwj· ·kÓ0­ðt¸q(°ô"­ãE+|Yámd©Aþ qÇgPòË1z­Y«Y~þKÎ11ÝþÑg~PÄnøëHa/×{®6ib	·ïläþ_¼óFo7#A»tyûoÁX¨ÉÖ+t³ ¯ÆL_D]ssÉíï@þai+G_O	ÀKEN0êQ¢gÂ#û=ÖKé¦CÇ#°<lF'ô#EPODONIOS
