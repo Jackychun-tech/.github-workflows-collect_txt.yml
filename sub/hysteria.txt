@@ -10,13 +10,10 @@ hysteria://1.162.136.159:11223/?insecure=1&peer=cdn.discordapp.com&auth=mqoE9qSo
 hysteria://1.162.139.149:11223/?insecure=1&peer=www.dtku46.xyz&auth=mqoE9qSoyMFa&upmbps=11&downmbps=55&alpn=h3#%F0%9F%87%B9%F0%9F%87%BC%20Taipei%2C%20TW%20%C2%B7%20Data%20Communication%E2%80%A6%20%7C%201.162.139.149
 hysteria://1.162.152.244:22334?alpn=h3&auth=dongtaiwang.com&downmbps=80&fastopen=1&insecure=1&peer=wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc&protocol=udp&upmbps=50#%F0%9F%87%B9%F0%9F%87%BC%20Taipei%2C%20TW%20%C2%B7%20Data%20Communication%E2%80%A6%20%7C%201.162.152.244
 hysteria://1.162.173.82:22334?upmbps=50&downmbps=80&auth=dongtaiwang.com&insecure=1&alpn=h3#%F0%9F%87%B9%F0%9F%87%BC%20Taipei%2C%20TW%20%C2%B7%20Data%20Communication%E2%80%A6%20%7C%201.162.173.82
-hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=1000&obfsParam=&protocol=udp&insecure=1&peer=apple.com&sub_tag=C002-260622&upmbps=500&udp=true#%F0%9F%87%A9%F0%9F%87%AADE_21%7C782KB%2Fs%7CC002-260622
-hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=55&obfsParam=&insecure=1&peer=bing.com&sub_tag=K001-260618&upmbps=11&udp=true#%F0%9F%87%A9%F0%9F%87%AADE_2%7C284KB%2Fs%7CK001-260618
+hysteria://5.83.129.90:54177?alpn=h3&auth_str=dongtaiwang.com&downmbps=55&obfsParam=&insecure=1&peer=bing.com&sub_tag=K001-260618&upmbps=11&udp=true#%F0%9F%87%A9%F0%9F%87%AADE_16%7C752KB%2Fs%7CK001-260618
 hysteria://5.83.129.90:54177?auth=&peer=apple.com&upmbps=500&downmbps=1000&insecure=1#4FreeIran-5bd52e6427
-hysteria://5.83.129.90:54177?protocol=udp&auth=dongtaiwang.com&peer=apple.com&upmbps=500&downmbps=1000&alpn=h3#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%C2%B7%20Takehost%20Ou%20%7C%205.83.129.90%20%3A54177
-hysteria://dongtaiwang.com@5.83.129.90:54177?alpn=h3&downmbps=1000&insecure=1&sni=apple.com&upmbps=500#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%C2%B7%20Takehost%20Ou%20%7C%205.83.129.90%20%3A54177%C2%B7hysteria
+hysteria://5.83.129.90:54177?protocol=udp&auth=dongtaiwang.com&peer=apple.com&upmbps=500&downmbps=1000&alpn=h3#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%C2%B7%20Takehost%20Ou%20%7C%205.83.129.90
 hysteria://5.83.129.143:26691?auth=&peer=5.83.129.143&upmbps=10&downmbps=55&insecure=1#4Sarina-b7fb503ad4
-hysteria://5.83.129.153:20088?alpn=h3&auth_str=dongtaiwang.com&downmbps=1000&obfsParam=&protocol=udp&insecure=1&peer=apple.com&sub_tag=C002-260622&upmbps=500&udp=true#%F0%9F%87%A9%F0%9F%87%AADE_1%7C467KB%2Fs%7CC002-260622
 hysteria://5.83.129.153:20088?auth=&peer=apple.com&upmbps=500&downmbps=1000&insecure=1#4Sarina-271f3118c3
 hysteria://5.83.129.153:20088?protocol=udp&auth=dongtaiwang.com&peer=apple.com&upmbps=500&downmbps=1000&alpn=h3#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%C2%B7%20Takehost%20Ou%20%7C%205.83.129.153
 hysteria://8.217.86.232:7539?upmbps=50&downmbps=100&auth=de08f485-8f8c-4316-9e80-6e7ecdf91d45&insecure=1&alpn=h3#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20HK%20%C2%B7%20Alibaba%20%28US%29%20Technology%E2%80%A6%20%7C%208.217.86.232
@@ -33,17 +30,16 @@ hysteria://62.210.10.186:35511?alpn=h3&auth=dongtaiwang.com&auth_str=dongtaiwang
 hysteria://62.210.10.186:35511?auth=dongtaiwang.com&peer=apple.com&upmbps=11&downmbps=55&insecure=1#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
 hysteria://62.210.10.186:50011?alpn=h3&auth=dongtaiwang.com&downmbps=55#%F0%9F%87%AB%F0%9F%87%B7%20Paris%2C%20FR%20%C2%B7%20Scaleway%20%7C%2062.210.10.186%20%3A50011
 hysteria://62.210.10.186:50011?auth=dongtaiwang.com&peer=62.210.10.186&upmbps=10&downmbps=55&insecure=1#hy-62.210.10.186
-hysteria://62.210.70.191:23556?alpn=h3&auth=github.com/Alvin9999-newpac/fanqiang&downmbps=55 Mbps&protocol=udp&insecure=1&peer=bing.com&sub_tag=P002-260618&upmbps=11 Mbps&udp=true#%F0%9F%87%AB%F0%9F%87%B7FR_71%7C542KB%2Fs%7CP002-260618
+hysteria://62.210.70.191:23556?alpn=h3&auth=github.com/Alvin9999-newpac/fanqiang&downmbps=55#%F0%9F%87%AB%F0%9F%87%B7%20Paris%2C%20FR%20%C2%B7%20Scaleway%20%7C%2062.210.70.191
 hysteria://62.210.70.191:23556?auth=github.com/Alvin9999-newpac/fanqiang&peer=bing.com&upmbps=11&downmbps=55&insecure=1#github.com/%2A%2A%2A%2A%2A%2A%2A%2A%2A-%2A%2A%2A%2A%2A%2A/%2A%2A...%20%231
 hysteria://62.210.127.217:40099?upmbps=100&downmbps=100&auth=dongtaiwang.com&insecure=1&peer=apple.com&alpn=h3#%F0%9F%87%AB%F0%9F%87%B7%20Paris%2C%20FR%20%C2%B7%20Scaleway%20%7C%2062.210.127.217
 hysteria://62.210.196.68:26691?alpn=h3&auth=dongtaiwang.com&downmbps=55#%F0%9F%87%AB%F0%9F%87%B7%20Paris%2C%20FR%20%C2%B7%20Scaleway%20%7C%2062.210.196.68
 hysteria://62.210.196.68:26691?auth=dongtaiwang.com&peer=62.210.196.68&upmbps=10&downmbps=55&insecure=1#hy-62.210.196.68
-hysteria://62.210.196.68:26691?auth_str=dongtaiwang.com&auth=dongtaiwang.com&upmbps=11
 hysteria://74.48.18.240:27564?insecure=1&peer=wechat.com&auth=sZEvQgYdkXmx76LH1aZmtqXVP1glIV5BnRiDALrdj9sNl2QfdE&upmbps=11&downmbps=55&alpn=h3&protocol=wechat-video#%F0%9F%87%BA%F0%9F%87%B8%20Charlotte%2C%20US%20%7C%2074.48.18.240
 hysteria://104.234.70.6:11330/?insecure=1&peer=vpnproxy66.online&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%F0%9F%87%B9%F0%9F%87%AD%20Bangkok%2C%20TH%20%C2%B7%20Kingstar%28HK%29Technology%E2%80%A6%20%7C%20104.234.70.6%20%3A11330
 hysteria://104.234.70.6:16117/?insecure=1&auth=dongtaiwang.com&upmbps=50&downmbps=80&alpn=h3#%F0%9F%87%B9%F0%9F%87%AD%20Bangkok%2C%20TH%20%C2%B7%20Kingstar%28HK%29Technology%E2%80%A6%20%7C%20104.234.70.6%20%3A16117
 hysteria://104.234.70.41:57153/?insecure=1&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%F0%9F%87%B9%F0%9F%87%AD%20Bangkok%2C%20TH%20%C2%B7%20Kingstar%28HK%29Technology%E2%80%A6%20%7C%20104.234.70.41
-hysteria://108.181.2.154:33445?insecure=1&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%20Los%20Angeles%2C%20US%20%C2%B7%20Psychz%20Networks%20%7C%20108.181.2.154
+hysteria://108.181.2.154:33445?insecure=1&auth=dongtaiwang.com&upmbps=11&downmbps=55&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%20Los%20Angeles%2C%20US%20%C2%B7%20Psychz%20Networks%20%7C%20108.181.2.154%20%3A33445
 hysteria://108.181.5.133:26022?upmbps=80&downmbps=100&auth=dongtaiwang.com&insecure=1&peer=google.com&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%20Los%20Angeles%2C%20US%20%C2%B7%20Psychz%20Networks%20%7C%20108.181.5.133
 hysteria://108.181.17.116:15566?auth=jQrGpwSqp34P&upmbps=50&downmbps=80&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%20Los%20Angeles%2C%20US%20%C2%B7%20Psychz%20Networks%20%7C%20108.181.17.116
 hysteria://108.181.22.155:11223?auth=O5tQQiW2xKf5&upmbps=50&downmbps=80&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%20Los%20Angeles%2C%20US%20%C2%B7%20Psychz%20Networks%20%7C%20108.181.22.155%20%3A11223
